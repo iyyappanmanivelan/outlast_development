@@ -1,0 +1,521 @@
+@media (width < 1400px) {
+    .navmain {
+        gap: 80px;
+    }
+
+    .leg-cup2 img {
+        height: 690px;
+    }
+
+    .bc-1 p {
+        font-size: 80px;
+    }
+
+    .ch-tst video {
+        margin: 150px 10px
+    }
+
+    .ch-tst {
+        text-align: center;
+    }
+
+    .plybtn {
+        left: 0px;
+    }
+}
+
+
+@media (width < 1200px) {
+
+    .bc-1 p {
+        font-size: 65px;
+    }
+
+    .updown-space {
+        padding: 80px 0px;
+    }
+
+    .ch-tst img,
+    .ch-tst video {
+        margin: 0px 0px;
+        margin-top: 100px;
+    }
+
+    .plybtn {
+        top: 55%;
+    }
+
+
+    .ch-tst {
+        text-align: center;
+    }
+
+
+    .banner-content {
+        top: 30%;
+    }
+
+    .head-coach {
+        width: 700px;
+    }
+
+    .player-growth {
+        width: 550px;
+        left: 25%;
+        top: 67%;
+    }
+
+    .wyj-box {
+        width: 450px;
+    }
+
+    .navmain {
+        gap: 40px;
+    }
+
+    .nav-link {
+        width: 120px;
+    }
+
+    .pagemenu {
+        gap: 42px;
+    }
+
+    .register-now button {
+        font-size: 15px;
+        padding: 15px 25px;
+        margin-bottom: 5px;
+    }
+
+    .pagemenu a,
+    .leg-point p,
+    .legpoint2 p {
+        font-size: 16px;
+    }
+
+    .frame-img,
+    .frame-img img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .leg-point {
+        height: 168px;
+    }
+
+    .leg-point h4,
+    .legpoint2 h4 {
+        font-size: 20px;
+    }
+
+    .leg-cup2 img {
+        height: 650px;
+    }
+
+    .programm-card {
+        height: 700px;
+    }
+
+    .accordion-header .accordion-button {
+        height: 70px;
+        font-size: 24px;
+    }
+
+    .scorebg {
+        height: 1100px;
+    }
+
+    .frmae-points {
+        left: 20px;
+    }
+
+    .tm-pic {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .tm-pic h2 {
+        font-size: 40px !important;
+    }
+
+    .pg {
+        top: 69%;
+    }
+}
+
+@media (width < 992px) {
+    .banner-content {
+        top: 25%;
+    }
+
+    .ch-tst video {
+        height: 400px !important;
+    }
+
+    .bc-1 p {
+        font-size: 53px;
+    }
+
+    .frmae-points {
+        left: 0px;
+    }
+
+    .choose-bg {
+        height: 1500px;
+    }
+
+    .choose-title h3 {
+        width: 500px;
+    }
+
+    .gallery-main video {
+        height: 350px;
+    }
+
+    .gbg {
+        height: 850px;
+    }
+
+    .getknow-sub h3,
+    .programm-sub h3,
+    .gt-subtitle h3,
+    .test-title h3,
+    .latest-title h3,
+    .jn-title h3,
+    .leg-title h3 {
+        font-size: 30px;
+    }
+
+    .gt-title h4,
+    .Guided-title h4,
+    .choose-title h3 {
+        font-size: 35px;
+    }
+
+    .test-img img,
+    .frmae img {
+        height: 400px;
+        width: 100%;
+    }
+
+    .whyjoin-img img {
+        height: 300px;
+    }
+
+    .about-img img {
+        height: 450px;
+    }
+
+    .about-title h3 {
+        font-size: 100px;
+    }
+
+    .values-title h4 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .abbg {
+        height: 650px;
+    }
+
+    .abt-title h2 {
+        font-size: 50px;
+    }
+
+    .abt-info h6 {
+        font-size: 20px;
+    }
+
+    .pgt img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .pgt {
+        margin: 10px 0px;
+    }
+
+    .pgt h4 {
+        font-size: 18px;
+
+    }
+
+    .lvl1 video {
+        height: 250px !important;
+        padding-top: 20px;
+    }
+
+    .programm-card {
+        height: 800px;
+    }
+
+    .formgrp label {
+        font-size: 18px;
+        margin: 5px 0px;
+    }
+
+    .formgrp {
+        margin: 10px 0px;
+    }
+
+    .formgrp input {
+        padding: 12px;
+        font-size: 13px;
+    }
+
+    .ctbg {
+        height: 830px;
+    }
+
+}
+
+
+@media (width < 768px) {
+
+    .social-links h5 {
+        font-size: 16px;
+    }
+
+    .ch-tst video {
+        height: 290px !important;
+        margin: 0px 0px;
+        margin-top: 50px;
+    }
+
+    .phone h4,
+    .mail h4 {
+        font-size: 14px;
+    }
+
+    .bc-1 p {
+        font-size: 40px;
+    }
+
+    .fticon img {
+        width: 35px;
+    }
+
+    .head-coach {
+        width: 100%;
+    }
+
+    .player-growth {
+        width: 100%;
+    }
+
+    .test-img img {
+        height: 500px;
+    }
+
+    .frmae-points .container {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .frmae-points {
+        top: 90px;
+    }
+
+    .choose-title h3 {
+        width: 100%;
+    }
+
+    .choose-bg {
+        height: 2600px;
+    }
+
+    .pg-title h3 {
+        font-size: 30px;
+    }
+
+    .pgt h4,
+    .formgrp button {
+        font-size: 15px;
+    }
+
+    .lvl1 video {
+        height: 200px !important;
+    }
+
+    .ctbg {
+        height: 770px;
+    }
+}
+
+
+@media (width < 576px) {
+
+    .bc-1 p {
+        font-size: 30px;
+    }
+
+    .plyr-img img {
+        height: 370px;
+    }
+
+    .ch-tst img {
+        margin-top: 50px;
+    }
+
+    .plybtn {
+        top: 50%;
+        font-size: 30px;
+    }
+
+    .ch-tst video {
+        height: 210px !important;
+    }
+
+    .gt-title h4,
+    .Guided-title h4,
+    .choose-title h3 {
+        font-size: 30px;
+    }
+
+    .choose-bg {
+        height: 2300px;
+    }
+
+    .fticon img {
+        width: 30px;
+    }
+
+    .getknow-sub h3,
+    .programm-sub h3,
+    .gt-subtitle h3,
+    .test-title h3,
+    .latest-title h3,
+    .leg-title h3 {
+        font-size: 26px;
+    }
+
+    .getknow-sub p,
+    .info p,
+    .gt-prara p,
+    .plyr p {
+        font-size: 15px;
+    }
+
+    .abbg {
+        height: 620px;
+    }
+
+    .hc-position h6 {
+        font-size: 10px;
+    }
+
+    .hc-position h5,
+    .leg-point p,
+    .legpoint2 p,
+    .terms h6,
+    .privacy h6 {
+        font-size: 14px;
+    }
+
+    .head-coach {
+        padding: 20px;
+    }
+
+    .hc-img img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .hc-position h3,
+    .story-sec h5,
+    .values-title h4,
+    .abt-info h6,
+    .leg-point h4,
+    .legpoint2 h4,
+    .legintro p {
+        font-size: 18px;
+    }
+
+    .mapbg {
+        height: 180px;
+    }
+
+    .mainmap {
+        top: 30px;
+    }
+
+    .plyr h4 {
+        font-size: 35px;
+    }
+
+    .updown-space {
+        padding: 50px 15px;
+    }
+
+    .insta-post,
+    .overlay2 {
+        left: 0px;
+    }
+
+    .gallery-main video {
+        height: 400px;
+    }
+
+    .about-img img {
+        height: 300px;
+    }
+
+    .about-title h3 {
+        font-size: 70px;
+    }
+
+    .abt-title h2 {
+        font-size: 40px;
+    }
+
+    .cc-title {
+        height: 72px;
+    }
+
+    .leg-title h3 {
+        letter-spacing: 0px;
+        font-size: 20px;
+    }
+
+    .scorebg {
+        height: 1000px;
+    }
+
+    .cc-title {
+        font-size: 20px;
+        height: 55px;
+    }
+
+    .cc-img img {
+        width: 35px;
+    }
+
+    .choose-card {
+        height: 260px;
+    }
+
+    .ctbg {
+        height: 700px;
+    }
+
+    .register-now button {
+        padding: 10px 25px;
+    }
+
+    .jn-title h3 {
+        width: 350px;
+        font-size: 22px;
+    }
+
+    .leg-cup img,
+    .leg-cup2 img {
+        height: 400px;
+    }
+
+    .leg-point2 h4 {
+        font-size: 16px;
+    }
+
+}
