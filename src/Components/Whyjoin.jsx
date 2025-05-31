@@ -14,13 +14,13 @@ function Whyjoin() {
   });
 
   return (
-    <section className="updown-space">
+    <section className="updown-space mainbgclr">
       <div className="why-join">
         <div className="container position-relative">
           <div className="row">
             <div className="col-lg-6" >
               <div className="whyjoin-img">
-                <img src="\assets\ban2.jpg" className="img-fluid" />
+                <img src="assets\whyjoin.jpg" className="img-fluid" />
               </div>
             </div>
             <div className=" col-lg-6">
@@ -175,7 +175,7 @@ function Whyjoin() {
               }}
             >
               <div className="register-now">
-                <button className="px-5">View Programm</button>
+                <button>View Programm</button>
               </div>
             </div>
           )}

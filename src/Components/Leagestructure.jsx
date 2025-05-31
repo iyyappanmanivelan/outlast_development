@@ -3,8 +3,8 @@ import React from "react";
 function Leagestructure({data}) {
   return (
     <section
-      className="updown-space"
-   
+      className="updown-space mainbgclr"
+     
     >
       <div className="container">
         <div className="getknow d-flex justify-content-center align-items-center gap-3 ">
@@ -33,7 +33,7 @@ function Leagestructure({data}) {
                 </div>
                 <div className="col-lg-6">
                     <div className="leg-cup">
-                        <img src="\assets\cup.jpg" className="img-fluid"/>
+                        <img src="assets\zone.jpg" className="img-fluid"/>
                     </div>
                 </div>
             </div>

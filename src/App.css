@@ -30,17 +30,32 @@ a {
 .outlast_logo img {
   width: 80px;
 }
+.uq-img img{
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0px 30px 0px 0px;
+}
 
 .overlay {
   top: 0px;
-  background: linear-gradient(27deg, #00000094, #000000bf, #000000cf, #000000ba, #000000ba, #000000ba, #000000ba, #000000ba, #000000ba, transparent);
+  /* background: linear-gradient(27deg, #00000094, #000000bf, #000000cf, #000000ba, #000000ba, #000000ba, #000000ba, #000000ba, #000000ba, transparent); */
   width: 100%;
   height: 100%;
+  background: linear-gradient(177deg, #000000bf, #d8680c);
 }
 
 .navmain {
-  gap: 13%;
+  gap: 8%;
 }
+
+
+.uq-cont{
+  background: linear-gradient(to right, #bc9c23, #e0d39b, #e0d39c) !important;
+  padding: 20px 15px;
+  border-radius: 0px 0px 0px 30px;
+}
+
 
 .nav-link {
   background: linear-gradient(to right, #bc9c23, #e0d39b, #e0d39c) !important;
@@ -54,7 +69,7 @@ a {
 }
 
 .pagemenu a {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -124,7 +139,11 @@ a {
   font-weight: 650;
   font-size: 40px;
 }
-
+.test-poster img{
+  width: 550px;
+  top: -247px;
+  left: 135px;
+}
 .jn-title h3 {
   color: #e0d39b;
 }
@@ -221,28 +240,28 @@ a {
 .player-growth {
   display: flex;
   align-items: center;
-  width: 640px;
+  width: 650px;
   justify-content: space-around;
   background: linear-gradient(#bc9c23, #e0d39b, #e0d39c);
-  padding: 18px 5px;
+  padding: 25px 5px;
   border-radius: 0px 20px 0px 20px;
 }
 
 .pg {
-  top: 64%;
+  top: 62%;
   left: 38%;
 
 
 }
 
 .plyr h4 {
-  font-size: 45px;
+  font-size: 55px;
   font-weight: 650;
   color: white;
 }
 
 .plyr p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .whyjoin-img img {
@@ -259,12 +278,12 @@ a {
   left: -20px;
   width: 57px;
   padding: 9px;
-  background-color: #f4eccbf7;
+  background-color: #000;
   border-radius: 30px;
 }
 
 .wyj-box {
-  border: 2px solid #bc9c23;
+  border: 2px solid #efde9a;
   width: 100%;
   height: 190px;
   margin: 15px 0px;
@@ -299,7 +318,14 @@ a {
   top: 0px;
   width: 100%;
   height: 100%;
-  background-color: #00000078;
+  background-color: #000000bf;
+}
+
+.overlay7 {
+  background-color: #00000070;
+  top: 0px;
+  width: 100%;
+  height: 100%;
 }
 
 .overlay6 {
@@ -386,9 +412,10 @@ a {
 
 .register-now button {
   background: linear-gradient(#bc9c23, #e0d39b, #e0d39c);
-  padding: 10px 25px;
+  padding: 12px 35px;
   border-radius: 0px 20px 0px 20px;
   font-weight: 650;
+  font-size: 20px;
   border: none;
 }
 
@@ -427,7 +454,7 @@ a {
 
 .about-title {
   z-index: 1;
-  top: 25%;
+  top: 35%;
   color: white;
   width: 100%;
   left: 0px;
@@ -445,12 +472,15 @@ a {
 }
 
 .about-img img {
-  height: 550px;
+  height: 900px;
   object-fit: cover;
 }
 
 .updown-space {
   padding: 100px 0px;
+}
+.mainbgclr{
+  background-color: #d1650d !important;
 }
 
 .title-space {
@@ -532,8 +562,8 @@ a {
   display: none;
 }
 
-.plyr-img:hover .plyr-cont{
-  visibility: visible !important ;
+.plyr-img:hover .plyr-cont {
+  visibility: visible !important;
 }
 
 .values-title h4 {
@@ -580,7 +610,7 @@ a {
 
 
 .plyr {
-  width: 130px;
+  width: 160px;
 }
 
 .img-card img {
@@ -603,15 +633,17 @@ a {
 }
 
 .team-pic img {
-  width: 200px;
-  height: 200px;
+    width: 350px;
+    height: 230px;
   object-fit: cover;
   border-radius: 100px;
 }
 
 .team-grid {
-  height: 400px;
   padding: 30px 30px;
+  border-radius: 0px 30px 0px 30px;
+  background: linear-gradient(#bc9c23, #e0d39b, #e0d39c);
+
 }
 
 .teamwise h3 {
@@ -812,9 +844,9 @@ table tbody tr:nth-child(odd) {
   top: 44%;
   width: 100%;
   text-align: center;
-  left: 40px;
   color: white;
-  font-size: 40px;
+  left: 0pc;
+  font-size: 65px;
   cursor: pointer;
 }
 
@@ -823,13 +855,9 @@ table tbody tr:nth-child(odd) {
   padding: 15px 10px;
 }
 
-.ch-tst video {
-  height: 500px !important;
-  margin: 70px 40px;
-}
-
 .ch-tst img {
-  margin: 150px 40px;
+  object-fit: cover;
+  border-radius: 40px;
 }
 
 .formgrp label {

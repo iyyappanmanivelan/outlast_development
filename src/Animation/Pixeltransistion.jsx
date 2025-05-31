@@ -112,7 +112,7 @@ function PixelTransition({
       <div className="pixelated-image-card__default">
         {firstContent}
       </div>
-      <div className="pixelated-image-card__active" ref={activeRef}>
+      <div className="pixelated-image-card__active text-center" ref={activeRef}>
         {secondContent}
       </div>
       <div className="pixelated-image-card__pixels" ref={pixelGridRef} />

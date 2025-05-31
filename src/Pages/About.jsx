@@ -33,7 +33,7 @@ function About() {
            <h3>- Outlast F.C.</h3>
       </div>
          </div>
-      <div className="overlay2 position-absolute "></div>
+      <div className="overlay7 position-absolute "></div>
     </div>
 
 

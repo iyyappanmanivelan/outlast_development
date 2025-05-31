@@ -37,9 +37,11 @@ function Gallery({ data }) {
                   "--swiper-pagination-color": "#fff",
                 }}
                 spaceBetween={10}
+                autoplay= {true}
+                slidesPerView={3}
                 navigation={true}
                 thumbs={{ swiper: thumbsSwiper }}
-                modules={[FreeMode, Navigation, Thumbs]}
+                modules={[FreeMode, Navigation, Thumbs , Autoplay]}
                 className="mySwiper2"
               >
                 {data?.map((item) =>

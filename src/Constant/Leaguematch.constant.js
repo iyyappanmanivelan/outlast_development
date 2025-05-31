@@ -55,28 +55,82 @@ export const LeagueData = {
         {
             id : 1,
             Team_name  : 'Under -12',
-            Team_pic : "assets/teampgrp.jpg",
+            Team_pic : "assets/team2.jpg",
             location:"Palikarnai"
         },
         {
             id : 2,
             Team_name  : 'Under -14',
-            Team_pic : "assets/teampgrp.jpg",
+            Team_pic : "assets/team3.jpg",
               location:"Palikarnai"
             
         },
         {
             id : 3,
             Team_name  : 'Under -16',
-            Team_pic : "assets/teampgrp.jpg",
+            Team_pic : "assets/team10.jpg",
               location:"Palikarnai"
         },
         {
             id : 4,
             Team_name  : 'Under -18',
-            Team_pic :"assets/teampgrp.jpg",
+            Team_pic :"assets/team12.jpg",
             location:"Palikarnai"
-        }
+        },
+            {
+            id : 5,
+            Team_name  : 'Under -18',
+            Team_pic :"assets/team15.jpg",
+            location:"Palikarnai"
+        },
+            {
+            id : 6,
+            Team_name  : 'Under -18',
+            Team_pic :"assets/team18.jpg",
+            location:"Palikarnai"
+        },
+
+        {
+            id : 7,
+            Team_name  : 'Under -18',
+            Team_pic :"assets/team19.jpg",
+            location:"Palikarnai"
+        },
+
+        {
+            id : 8,
+            Team_name  : 'Under -18',
+            Team_pic :"assets/team9.jpg",
+            location:"Palikarnai"
+        },
+
+        {
+            id : 9,
+            Team_name  : 'Under -18',
+            Team_pic :"assets/team7.jpg",
+            location:"Palikarnai"
+        },
+
+            {
+            id : 10,
+            Team_name  : 'Under -18',
+            Team_pic :"assets/team4.jpg",
+            location:"Palikarnai"
+        },
+            {
+            id : 11,
+            Team_name  : 'Under -18',
+            Team_pic :"assets/team6.jpg",
+            location:"Palikarnai"
+        },
+
+          {
+            id : 11,
+            Team_name  : 'Under -18',
+            Team_pic :"assets/team13.jpg",
+            location:"Palikarnai"
+        },
+
     ],
 
     scoreboard : {

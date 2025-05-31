@@ -11,7 +11,7 @@ import moment from "moment";
 
 function Latestnews({ blogs }) {
   return (
-    <section className="updown-space">
+    <section className="updown-space mainbgclr">
       <div className="container">
         <div className="getknow d-flex justify-content-center align-items-center gap-3 ">
           <div className="fticon">

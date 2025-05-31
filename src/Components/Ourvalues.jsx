@@ -13,7 +13,7 @@ import PixelTransition from "../Animation/Pixeltransistion";
 
 function Ourvalues({ data , philo}) {
   return (
-    <section className="updown-space">
+    <section className="updown-space ">
       <div className="container">
       <div className="getknow d-flex justify-content-center align-items-center gap-3">
           <div className="fticon">

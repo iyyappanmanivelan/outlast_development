@@ -54,8 +54,8 @@ function Banner() {
       </div>
       <div className="banner-content position-absolute">
         <div className="bc-1">
-          <p style={{color:"#e0d39b"}}>Every Kick Counts</p>
-          <p style={{color:"#fff"}}>Every Dream Takes Flight</p>
+          <p style={{color:"#e0d39b"}}>Skills win games</p>
+          <p style={{color:"#fff"}}>Mentality wins careers</p>
         </div>
       </div>
     </section>

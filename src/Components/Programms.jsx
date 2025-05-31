@@ -5,7 +5,7 @@ import Registerform from "./Registerform";
 function Programms() {
   return (
     <>
-      <section className="program updown-space">
+      <section className="program updown-space mainbgclr">
         <div className="container">
           <div className="pg-1">
             <div className="getknow d-flex justify-content-center align-items-center gap-3 ">

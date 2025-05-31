@@ -16,7 +16,7 @@ export const AboutData = {
       name: "Excellence",
       content:
         "We aim for the highest standards in all aspects of our academy.",
-      img: "/assets/value1.jpg",
+      img: "assets/value1.jpg",
       icon: "/assets/v-icon3.png",
     },
     {
@@ -24,7 +24,7 @@ export const AboutData = {
       name: "Integirity",
       content:
         " We teach players the importance of honesty, respect, and fair play.",
-      img: "/assets/value2.jpg",
+      img: "assets/teach.jpg",
       icon: "/assets/v-icon2.png",
     },
     {
@@ -32,7 +32,7 @@ export const AboutData = {
       name: "Passion",
       content:
         "We foster a love for the game and a commitment to continuous improvement.",
-      img: "/assets/value3.jpeg",
+      img: "assets/value3.jpg",
       icon: "/assets/v-icon1.png",
     },
     {
@@ -40,7 +40,7 @@ export const AboutData = {
       name: "Teamwork",
       content:
         "Success in football is built on collaboration, unity, and mutual support.",
-      img: "/assets/value4.jpeg",
+      img: "/assets/singleman.jpg",
       icon: "/assets/v-icon4.png",
     },
   ],
@@ -85,19 +85,19 @@ export const AboutData = {
         img: "/assets/coach6.jpg",
         role: "Attack-Forward",
       },
-         {
+      {
         id: "7",
         name: "Akash",
         img: "/assets/coach7.jpg",
         role: "Attack-Forward",
       },
-         {
+      {
         id: "8",
         name: "Akash",
         img: "/assets/coach8.jpg",
         role: "Attack-Forward",
       },
-         {
+      {
         id: "9",
         name: "Akash",
         img: "/assets/coach9.jpg",
@@ -105,27 +105,42 @@ export const AboutData = {
       },
     ],
   },
-
   Unique: [
     {
       id: 1,
       content:
         "We focus on the complete player, offering training in technical skills, tactical awareness, fitness, and mental resilience.",
-      icon: "/assets/u-1.png",
+        img : "assets/uq1.jpg"
     },
     {
       id: 2,
-      name: "",
       content:
-        "Every player is unique, which is why we provide individualized development plans to meet specific goals.",
-      icon: "",
+        "Regular competitive matches, tournaments, and scouting opportunities give our players the chance to shine and level up.",
+         img : "assets/uq2.jpg"
     },
     {
       id: 3,
       content:
-        "We focus on the complete player, offering training in technical skills, tactical awareness, fitness, and mental resilience.",
-      icon: "",
+        "We use the latest techniques in fitness, agility, ball control, and tactical awareness to develop well-rounded players.",
+         img : "assets/uq3.jpg"
     },
+    {
+      id: 4,
+      content:
+        "We track each player’s progress and offer personalized feedback to help them grow faster and stronger — mentally and physically.",
+         img : "assets/uq4.jpg"
+    },
+    {
+      id: 5,
+      content:
+        "We teach responsibility, teamwork, and a winner’s mindset — values that extend beyond the football field.",
+         img : "assets/uq5.jpg"
+    },
+    {
+      id:6,
+      content : "Each coach at our academy combines technical excellence with heartfelt mentorship ensuring every child feels supported, valued, and inspired.",
+      img : "assets/care.jpg"
+    }
   ],
   Why_Choose: [
     {

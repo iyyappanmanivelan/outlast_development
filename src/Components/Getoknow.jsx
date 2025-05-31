@@ -5,7 +5,7 @@ function Getoknow() {
   const [play, setplay] = useState(false);
 
   return (
-    <section className="updown-space">
+    <section className="updown-space mainbgclr">
       <div className="container">
         <div className="row">
           <div className="col-xl-6 col-12">
@@ -15,7 +15,7 @@ function Getoknow() {
                   <img src="\assets\football-og.png" className="img-fluid" />
                 </div>
                 <div className="gt-title">
-                  <h4 className="m-0 cg "> Get To Know US</h4>
+                  <h4 className="m-0 cg"> Get To Know US</h4>
                 </div>
               </div>
               <div className="getknow-sub py-3 text-light">
@@ -46,21 +46,21 @@ function Getoknow() {
               </div>
               <div className="hc-profile d-flex align-items-center gap-3 py-2">
                 <div className="hc-img">
-                  <img src="\assets\pro-2.jpeg" className="img-fluid" />
+                  <img src="\assets\founder.png" className="img-fluid" />
                 </div>
                 <div className="hc-position">
-                  <h3>Muzhamil</h3>
+                  <h3>Muzhamil Rashid</h3>
                   <h5>Founder</h5>
                   <h6>(OUTLAST ACADEMY)</h6>
                 </div>
               </div>
             </div>
           </div>
-          {/* <div className="col-xl-6 col-12">
-            <div className="ch-tst position-relative">
+          <div className="col-xl-6 col-12">
+            <div className="ch-tst position-relative h-100">
               {play ? (
                 <video
-                  className="w-100"
+                  className="w-100 h-100 px-3"
                   src="video\about_outlast.mp4"
                   loop
                   autoPlay
@@ -69,7 +69,7 @@ function Getoknow() {
                 />
               ) : (
                 <>
-                  <img src="\assets\thumbnail.png" className="img-fluid" />
+                  <img src="\assets\thumbnail.png" className="img-fluid h-100 px-3" />
                   <div
                     className=" plybtn position-absolute"
                     onClick={() => {
@@ -81,7 +81,7 @@ function Getoknow() {
                 </>
               )}
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

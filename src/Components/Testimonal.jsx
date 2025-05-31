@@ -169,9 +169,9 @@ function Testimonal() {
                   </Swiper>
                 </div>
               </div>
-              <div className="col-xl-6 col-lg-5 d-none d-lg-block pt-lg-5 mt-lg-4 pt-xl-0 mt-xl-0">
-                <div className="test-poster text-center p-1">
-                    <img src="\assets\messi-removebg-preview.png" className="img-fluid"/>
+              <div className="col-xl-6 col-lg-5 d-none d-lg-block pt-lg-5 mt-lg-4 pt-xl-0 mt-xl-0 ">
+                <div className="test-poster text-center p-1 position-relative">
+                    <img src="assets\about (2).png" className="img-fluid position-absolute"/>
                 </div>
               </div>
             </div>
