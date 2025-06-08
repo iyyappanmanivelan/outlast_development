@@ -63,11 +63,11 @@ function Registerform() {
       >
         <div class="modal-dialog  modal-dialog-centered">
           <div
-            class="modal-content"
-            style={{ backgroundColor: "rgb(34, 33, 33)" }}
+            class="modal-content mainbgclr"
+           
           >
             <div class="modal-header border-0 text-center">
-              <h1 class="modal-title fs-5 cg" id="exampleModalLabel">
+              <h1 class="modal-title fs-3 fw-bold cg" id="exampleModalLabel">
                 Registration Form
               </h1>
               <button
@@ -88,7 +88,7 @@ function Registerform() {
                     {...Formik.getFieldProps("Name")}
                   />
                   {Formik.touched.Name && Formik.errors.Name ? (
-                    <small className="text-danger">Name field required *</small>
+                    <small className="text-dark">Name field required *</small>
                   ) : null}
                 </div>
                 <div className="input-box">
@@ -100,7 +100,7 @@ function Registerform() {
                     placeholder="Enter Your Mobile"
                   />
                   {Formik.touched.Mobile && Formik.errors.Mobile ? (
-                    <small className="text-danger">
+                    <small className="text-dark">
                       Mobile field required *
                     </small>
                   ) : null}
@@ -114,7 +114,7 @@ function Registerform() {
                     placeholder="Enter Your Age"
                   />
                   {Formik.touched.Age && Formik.errors.Age ? (
-                    <small className="text-danger">Age field required *</small>
+                    <small className="text-dark">Age field required *</small>
                   ) : null}
                 </div>
                 <div className="input-box">
@@ -157,7 +157,7 @@ function Registerform() {
                   document.getElementById("submit").click();
                 }}
               >
-                <button style={{ width: "140px", height: "48px" }}>
+                <button style={{ width: "170px", height: "50px" }}>
                   {loading ? (
                     <div
                       class="spinner-border text-dark"

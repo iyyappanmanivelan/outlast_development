@@ -6,6 +6,8 @@ import OurTeam from "../Components/OurTeam";
 import { LeagueData } from "../Constant/Leaguematch.constant";
 import Ourunique from "../Components/Ourunique";
 import { AboutData } from "../Constant/About.constant";
+import Faq from "../Components/Faq";
+import { FaqData } from "../Constant/Faq";
 
 function PPage() {
   return (
@@ -14,6 +16,7 @@ function PPage() {
       <Programms  />
       <Ourunique data={AboutData?.Unique} />
       <OurTeam data={LeagueData?.Team_member} />
+      <Faq data={FaqData} />
       <Joinus />
     </>
   );

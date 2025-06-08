@@ -6,7 +6,10 @@ function Scoreboard({ table }) {
       <div className="overlay6 position-absolute" style={{left:"0px"}}></div>
       <div className="position-absolute w-100 " style={{left:"0px"}}>
         <div className="container">
-        <div className="getknow d-flex align-items-center justify-content-center gap-3">
+        <div className="getknow d-flex align-items-center justify-content-center gap-3"
+         data-aos="fade-right"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000">
           <div className="fticon">
             <img src="\assets\football-og.png" className="img-fluid" />
           </div>
@@ -14,8 +17,8 @@ function Scoreboard({ table }) {
             <h4 className="m-0 cg ">Scoreboard</h4>
           </div>
         </div>
-        <div class="accordion  mt-5 pt-5" id="accordionExample">
-          <div class="accordion-item">
+        <div class="accordion   mt-5 pt-md-5" id="accordionExample">
+          <div class="accordion-item ">
             <h2 class="accordion-header" id="headingOne">
               <div
                 class="accordion-button w-100"
@@ -62,6 +65,7 @@ function Scoreboard({ table }) {
               </div>
             </div>
           </div>
+
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
               <div
@@ -109,6 +113,7 @@ function Scoreboard({ table }) {
               </div>
             </div>
           </div>
+
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
               <div
@@ -156,6 +161,7 @@ function Scoreboard({ table }) {
               </div>
             </div>
           </div>
+          
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingfour">
               <div

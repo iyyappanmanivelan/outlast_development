@@ -1,14 +1,32 @@
 @media (width < 1400px) {
     .navmain {
-        gap: 80px;
+        gap: 40px;
+    }
+
+    .programm-card {
+        height: 590px;
+        padding: 0px;
+    }
+
+    .pg-cnt {
+        top: 5%;
+        padding: 0px 50px;
+    }
+
+    .plyr h4 {
+        font-size: 45px;
     }
 
     .leg-cup2 img {
         height: 690px;
     }
 
+    .pg {
+        top: 64%;
+    }
+
     .bc-1 p {
-        font-size: 80px;
+        font-size: 100px;
     }
 
     .ch-tst video {
@@ -22,13 +40,52 @@
     .plybtn {
         left: 0px;
     }
+
+    .pagemenu {
+        gap: 60px;
+    }
+
+    .frmae-points {
+        left: 40px;
+    }
+
+    .test-poster img {
+        left: 30px;
+        top: -300px;
+    }
+
+    .testmonal-info {
+        top: 60px;
+    }
+
+    .banner_img img {
+        height: 900px;
+    }
+
 }
 
 
 @media (width < 1200px) {
 
     .bc-1 p {
-        font-size: 65px;
+        font-size: 80px;
+    }
+
+    .pgt-img {
+        height: 28px;
+        width: 28px;
+    }
+
+    .pg-title h3 {
+        font-size: 30px;
+    }
+
+    .about-title h3 {
+        font-size: 110px;
+    }
+
+    .about-img img {
+        height: 600px;
     }
 
     .updown-space {
@@ -38,11 +95,20 @@
     .ch-tst img,
     .ch-tst video {
         margin: 0px 0px;
-        margin-top: 100px;
+        margin-top: 60px;
+    }
+
+    .test-poster img {
+        left: 0px;
+        top: -117px;
     }
 
     .plybtn {
         top: 55%;
+    }
+
+    .banner_img img {
+        height: 600px;
     }
 
 
@@ -50,9 +116,18 @@
         text-align: center;
     }
 
+    .getknow-sub h3,
+    .programm-sub h3,
+    .gt-subtitle h3,
+    .test-title h3,
+    .latest-title h3,
+    .jn-title h3,
+    .leg-title h3 {
+        font-size: 37px;
+    }
 
     .banner-content {
-        top: 30%;
+        top: 45%;
     }
 
     .head-coach {
@@ -63,6 +138,7 @@
         width: 550px;
         left: 25%;
         top: 67%;
+        padding: 15px 5px;
     }
 
     .wyj-box {
@@ -78,12 +154,12 @@
     }
 
     .pagemenu {
-        gap: 42px;
+        gap: 38px;
     }
 
     .register-now button {
         font-size: 15px;
-        padding: 15px 25px;
+        padding: 12px 25px;
         margin-bottom: 5px;
     }
 
@@ -113,7 +189,7 @@
     }
 
     .programm-card {
-        height: 700px;
+        height: 490px;
     }
 
     .accordion-header .accordion-button {
@@ -121,12 +197,17 @@
         font-size: 24px;
     }
 
+    .pgt {
+        margin: 4px 0px;
+    }
+
     .scorebg {
         height: 1100px;
     }
 
     .frmae-points {
-        left: 20px;
+        left: 30px;
+        top: 100px;
     }
 
     .tm-pic {
@@ -142,6 +223,31 @@
     .pg {
         top: 69%;
     }
+
+    .plyr h4 {
+        font-size: 45px;
+    }
+
+    .cc-title {
+        height: auto;
+    }
+
+    .choose-card {
+        height: 250px;
+        padding: 30px !important;
+    }
+
+    .choose-bg {
+        height: 1300px;
+    }
+
+    .pgt h4 {
+        font-size: 20px;
+    }
+
+    .uq-cont h4 {
+        font-size: 18px;
+    }
 }
 
 @media (width < 992px) {
@@ -149,12 +255,24 @@
         top: 25%;
     }
 
+    .phone h4,
+    .mail h4,
+    .social-links h5 {
+        font-size: 14px;
+    }
+
     .ch-tst video {
         height: 400px !important;
     }
 
-    .bc-1 p {
-        font-size: 53px;
+    .cc-title {
+        height: 80px;
+        font-size: 27px;
+    }
+
+    .choose-card {
+        height: 310px;
+        padding: 30px !important;
     }
 
     .frmae-points {
@@ -193,19 +311,21 @@
         font-size: 35px;
     }
 
-    .test-img img,
     .frmae img {
         height: 400px;
         width: 100%;
     }
 
-    .whyjoin-img img {
-        height: 300px;
+    .test-img img {
+        height: 600px;
     }
 
-    .about-img img {
-        height: 450px;
+    .whyjoin-img img {
+        height: 400px;
+        width: 100%;
     }
+
+
 
     .about-title h3 {
         font-size: 100px;
@@ -238,17 +358,46 @@
     }
 
     .pgt h4 {
-        font-size: 18px;
+        font-size: 15px;
 
     }
 
-    .lvl1 video {
-        height: 250px !important;
-        padding-top: 20px;
+    .pg-title h3 {
+        font-size: 25px;
+    }
+
+    .uq-cont h4 {
+        font-size: 15px;
+    }
+
+    .uq-img img {
+        height: 250px;
+    }
+
+    .team-pic img {
+        height: 170px;
+    }
+
+    .testmonal-info {
+        top: 0px;
+    }
+
+    .test-poster img {
+        height: 550px;
+        object-fit: cover;
+        top: -50px;
+    }
+
+    .pgt {
+        margin: 5px 0px;
     }
 
     .programm-card {
-        height: 800px;
+        height: 350px;
+    }
+
+    .pg-cnt {
+        padding: 0px 15px;
     }
 
     .formgrp label {
@@ -278,19 +427,21 @@
         font-size: 16px;
     }
 
+    .phone h4,
+    .mail h4,
+    .social-links h5 {
+        font-size: 12px;
+    }
+
     .ch-tst video {
         height: 290px !important;
         margin: 0px 0px;
         margin-top: 50px;
     }
 
-    .phone h4,
-    .mail h4 {
-        font-size: 14px;
-    }
 
     .bc-1 p {
-        font-size: 40px;
+        font-size: 60px;
     }
 
     .fticon img {
@@ -306,7 +457,13 @@
     }
 
     .test-img img {
-        height: 500px;
+        height: 950px;
+    }
+
+    .test-poster img {
+        height: 600px;
+        object-fit: contain;
+        top: -110px;
     }
 
     .frmae-points .container {
@@ -318,12 +475,19 @@
         top: 90px;
     }
 
-    .choose-title h3 {
+    .choose-title h3,
+    .cc-title {
         width: 100%;
+        font-size: 25px;
+        height: auto;
+    }
+
+    .choose-card {
+        height: auto;
     }
 
     .choose-bg {
-        height: 2600px;
+        height: 2100px;
     }
 
     .pg-title h3 {
@@ -335,12 +499,46 @@
         font-size: 15px;
     }
 
-    .lvl1 video {
-        height: 200px !important;
+    .pg-title h3 {
+        font-size: 23px;
     }
+
 
     .ctbg {
         height: 770px;
+    }
+
+    .banner-content {
+        top: 40%;
+    }
+
+    .plybtn {
+        font-size: 50px;
+    }
+
+    .ch-tst img {
+        border-radius: 0px 40px 0px 40px;
+    }
+
+    .about-title h3 {
+        font-size: 80px;
+    }
+
+    .about-title {
+        top: 45%;
+    }
+
+    .programm-card {
+        height: 270px;
+    }
+
+    .pgt h4 {
+        font-size: 13px;
+    }
+
+    .pgt img {
+        height: 25px;
+        width: 25px;
     }
 }
 
@@ -348,7 +546,7 @@
 @media (width < 576px) {
 
     .bc-1 p {
-        font-size: 30px;
+        font-size: 45px;
     }
 
     .plyr-img img {
@@ -359,8 +557,21 @@
         margin-top: 50px;
     }
 
+    .banner_img img,
+    .about-img img {
+        height: 500px;
+    }
+
+    .outlast_logo img {
+        width: 65px !important;
+    }
+
+    .about-title {
+        top: 40%;
+    }
+
     .plybtn {
-        top: 50%;
+        top: 60%;
         font-size: 30px;
     }
 
@@ -371,15 +582,17 @@
     .gt-title h4,
     .Guided-title h4,
     .choose-title h3 {
-        font-size: 30px;
+        font-size: 23px;
     }
+
+
 
     .choose-bg {
         height: 2300px;
     }
 
     .fticon img {
-        width: 30px;
+        width: 25px;
     }
 
     .getknow-sub h3,
@@ -388,15 +601,10 @@
     .test-title h3,
     .latest-title h3,
     .leg-title h3 {
-        font-size: 26px;
+        font-size: 20px;
     }
 
-    .getknow-sub p,
-    .info p,
-    .gt-prara p,
-    .plyr p {
-        font-size: 15px;
-    }
+
 
     .abbg {
         height: 620px;
@@ -409,9 +617,21 @@
     .hc-position h5,
     .leg-point p,
     .legpoint2 p,
+    .privacy h6,
+    .getknow-sub p,
+    .info p,
+    .gt-prara p,
+    .plyr p,
+    .cc-explian,
+    .outlast-info p,
     .terms h6,
-    .privacy h6 {
+    .value-p,
+    .wyj-box p {
         font-size: 14px;
+    }
+
+    .fl-link h6 {
+        font-size: 12px;
     }
 
     .head-coach {
@@ -427,9 +647,10 @@
     .story-sec h5,
     .values-title h4,
     .abt-info h6,
-    .leg-point h4,
-    .legpoint2 h4,
-    .legintro p {
+
+    .legintro p,
+    .footer-title h3,
+    .wyj-box h2 {
         font-size: 18px;
     }
 
@@ -442,11 +663,15 @@
     }
 
     .plyr h4 {
-        font-size: 35px;
+        font-size: 27px;
     }
 
     .updown-space {
         padding: 50px 15px;
+    }
+
+    .plyr {
+        width: 100%;
     }
 
     .insta-post,
@@ -454,20 +679,27 @@
         left: 0px;
     }
 
+    .test-img img {
+        height: 900px;
+    }
+
+    .test-poster img {
+        height: 540px;
+        object-fit: contain;
+        top: -60px;
+    }
+
     .gallery-main video {
         height: 400px;
     }
 
-    .about-img img {
-        height: 300px;
-    }
-
     .about-title h3 {
-        font-size: 70px;
+        font-size: 60px;
     }
 
     .abt-title h2 {
         font-size: 40px;
+        width: 100%;
     }
 
     .cc-title {
@@ -483,9 +715,10 @@
         height: 1000px;
     }
 
-    .cc-title {
-        font-size: 20px;
-        height: 55px;
+    .cc-title,
+    .faqans {
+        font-size: 16px;
+        height: auto
     }
 
     .cc-img img {
@@ -506,7 +739,7 @@
 
     .jn-title h3 {
         width: 350px;
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .leg-cup img,
@@ -514,8 +747,32 @@
         height: 400px;
     }
 
-    .leg-point2 h4 {
-        font-size: 16px;
+    .leg-point h4,
+    .legpoint2 h4 {
+        font-size: 13px;
     }
+
+    .programm-card {
+        height: 350px;
+    }
+
+    .whyjoin-img img {
+        height: 260px;
+    }
+
+    .team-grid {
+        padding: 15px 10px;
+    }
+
+    .team-pic img {
+        height: 200px;
+    }
+
+    .accordion-header .accordion-button {
+        height: 70px;
+        font-size: 17px;
+    }
+
+
 
 }

@@ -7,7 +7,10 @@ body {
   font-style: normal;
   overflow-x: hidden !important;
   background-color: rgb(12, 12, 12) !important;
+  scroll-behavior: smooth !important;
+
 }
+
 
 a {
   text-decoration: none;
@@ -30,8 +33,9 @@ a {
 .outlast_logo img {
   width: 80px;
 }
-.uq-img img{
-  height: 450px;
+
+.uq-img img {
+  height: 350px;
   width: 100%;
   object-fit: cover;
   border-radius: 0px 30px 0px 0px;
@@ -39,10 +43,9 @@ a {
 
 .overlay {
   top: 0px;
-  /* background: linear-gradient(27deg, #00000094, #000000bf, #000000cf, #000000ba, #000000ba, #000000ba, #000000ba, #000000ba, #000000ba, transparent); */
   width: 100%;
   height: 100%;
-  background: linear-gradient(177deg, #000000bf, #d8680c);
+  background: linear-gradient(177deg, #00000057, #d8680c);
 }
 
 .navmain {
@@ -50,10 +53,16 @@ a {
 }
 
 
-.uq-cont{
+
+.uq-cont {
   background: linear-gradient(to right, #bc9c23, #e0d39b, #e0d39c) !important;
   padding: 20px 15px;
+  height: 120px;
   border-radius: 0px 0px 0px 30px;
+}
+
+.uq-cont h4 {
+  font-size: 20px;
 }
 
 
@@ -65,11 +74,11 @@ a {
 }
 
 .pagemenu {
-  gap: 50px;
+  gap: 70px;
 }
 
 .pagemenu a {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -79,10 +88,6 @@ a {
   cursor: pointer;
 }
 
-.tophead {
-  background-color: #e0d39c;
-
-}
 
 .register button,
 .register button:hover,
@@ -93,14 +98,42 @@ a {
 }
 
 .banner-content {
-  top: 35%;
+  top: 45%;
   z-index: 999;
   width: 100%;
   text-align: center;
 }
 
+.banner_img img {
+  height: 1000px;
+  object-fit: cover;
+  width: 100%;
+
+}
+
+.bgframe2 {
+  width: 100%;
+  background: url("../public/assets/bgframe2.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+
+.bgframe {
+  width: 100%;
+  background: url("../public/assets/bgframe.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+
+.faqans {
+  font-size: 20px;
+  padding: 40px 20px;
+}
+
 .bc-1 p {
-  font-size: 90px;
+  font-size: 130px;
   font-weight: 650;
 }
 
@@ -139,11 +172,13 @@ a {
   font-weight: 650;
   font-size: 40px;
 }
-.test-poster img{
+
+.test-poster img {
   width: 550px;
   top: -247px;
   left: 135px;
 }
+
 .jn-title h3 {
   color: #e0d39b;
 }
@@ -219,12 +254,17 @@ a {
   height: 640px;
 } */
 
-.lvl1 video {
-  width: 100%;
-  height: 300px !important;
-  background-size: cover;
+.lvl1 {
   top: 0px;
   left: 0px;
+}
+
+.lvl1 video {
+  width: 100%;
+  height: 100% !important;
+  background-size: cover;
+  border-radius: 0px 40px 0px 40px;
+  filter: brightness(0.3);
 }
 
 .programm-card {
@@ -246,11 +286,16 @@ a {
   padding: 25px 5px;
   border-radius: 0px 20px 0px 20px;
 }
+.pg-cnt{
+  top: 10%;
+  left: 0px;
+  z-index: 1;
+}
 
 .pg {
   top: 62%;
   left: 38%;
-
+  z-index: 1;
 
 }
 
@@ -324,6 +369,7 @@ a {
 .overlay7 {
   background-color: #00000070;
   top: 0px;
+  left: 0px;
   width: 100%;
   height: 100%;
 }
@@ -415,7 +461,7 @@ a {
   padding: 12px 35px;
   border-radius: 0px 20px 0px 20px;
   font-weight: 650;
-  font-size: 20px;
+  font-size: 18px;
   border: none;
 }
 
@@ -443,7 +489,7 @@ a {
   cursor: pointer;
 }
 
-.footer-link h4 {
+.footer-link h4{
   font-size: 17px;
   margin: 0px;
   color: #bc9c23;
@@ -451,6 +497,11 @@ a {
   background-color: #ffff;
   border-radius: 50px;
 }
+
+.footer-link h4 a{
+   color: #bc9c23 !important;
+}
+
 
 .about-title {
   z-index: 1;
@@ -479,8 +530,9 @@ a {
 .updown-space {
   padding: 100px 0px;
 }
-.mainbgclr{
-  background-color: #d1650d !important;
+
+.mainbgclr {
+  background-color: #e46700 !important;
 }
 
 .title-space {
@@ -633,8 +685,8 @@ a {
 }
 
 .team-pic img {
-    width: 350px;
-    height: 230px;
+  width: 350px;
+  height: 230px;
   object-fit: cover;
   border-radius: 100px;
 }
@@ -662,7 +714,7 @@ table thead th {
 
 .accordion-button,
 .accordion-button:not(.collapsed) {
-  background-color: #191818cc;
+  background-color: #e46700;
   height: 100px;
   font-weight: 700;
   font-size: 28px;
@@ -753,7 +805,8 @@ table tbody tr:nth-child(odd) {
 
 
 .leg-point p,
-.legpoint2 p {
+.legpoint2 p,
+.value-p {
   font-size: 18px;
 }
 
@@ -857,7 +910,8 @@ table tbody tr:nth-child(odd) {
 
 .ch-tst img {
   object-fit: cover;
-  border-radius: 40px;
+  border-radius: 0px 80px 0px 80px;
+  filter: brightness(0.5);
 }
 
 .formgrp label {

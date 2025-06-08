@@ -50,12 +50,24 @@ function Banner() {
               <img src="\assets\ban5.jpg" className="img-fluid" />
             </div>
           </SwiperSlide>
+          <SwiperSlide>
+            <div className="banner_img position-relative">
+              <div className="overlay position-absolute"></div>
+              <img src="\assets\ban7.jpg" className="img-fluid" />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="banner_img position-relative">
+              <div className="overlay position-absolute"></div>
+              <img src="\assets\ban8.jpg" className="img-fluid" />
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
       <div className="banner-content position-absolute">
-        <div className="bc-1">
-          <p style={{color:"#e0d39b"}}>Skills win games</p>
-          <p style={{color:"#fff"}}>Mentality wins careers</p>
+        <div className="bc-1" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+          <p style={{ color: "#e0d39b" }}>Skills win games</p>
+          <p style={{ color: "#fff" }}>Mentality wins careers</p>
         </div>
       </div>
     </section>

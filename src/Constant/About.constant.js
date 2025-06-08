@@ -110,36 +110,36 @@ export const AboutData = {
       id: 1,
       content:
         "We focus on the complete player, offering training in technical skills, tactical awareness, fitness, and mental resilience.",
-        img : "assets/uq1.jpg"
+        img : "/assets/uq1.jpg"
     },
     {
       id: 2,
       content:
         "Regular competitive matches, tournaments, and scouting opportunities give our players the chance to shine and level up.",
-         img : "assets/uq2.jpg"
+         img : "/assets/uq2.jpg"
     },
     {
       id: 3,
       content:
         "We use the latest techniques in fitness, agility, ball control, and tactical awareness to develop well-rounded players.",
-         img : "assets/uq3.jpg"
+         img : "/assets/uq3.jpg"
     },
     {
       id: 4,
       content:
         "We track each player’s progress and offer personalized feedback to help them grow faster and stronger — mentally and physically.",
-         img : "assets/uq4.jpg"
+         img : "/assets/uq4.jpg"
     },
     {
       id: 5,
       content:
         "We teach responsibility, teamwork, and a winner’s mindset — values that extend beyond the football field.",
-         img : "assets/uq5.jpg"
+         img : "/assets/uq5.jpg"
     },
     {
       id:6,
       content : "Each coach at our academy combines technical excellence with heartfelt mentorship ensuring every child feels supported, valued, and inspired.",
-      img : "assets/care.jpg"
+      img : "/assets/care.jpg"
     }
   ],
   Why_Choose: [

@@ -102,6 +102,9 @@ function PixelTransition({
 
   return (
     <div
+    data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
       ref={containerRef}
       className={`pixelated-image-card border-0 ${className}`}
       onMouseEnter={!isTouchDevice ? handleMouseEnter : undefined}

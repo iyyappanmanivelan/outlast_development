@@ -19,18 +19,29 @@ function Banner({ title, content }) {
               pathname == "/about" ? <img src="assets\about-banner.jpg" className="w-100" /> : 
               pathname == "/programm" ? <img src="assets\team1.jpg" className="w-100" /> :
               pathname == "/league" ? <img src="assets\league-banner.jpg" className="w-100" /> :
-            <img src="\assets\grass.jpg" className="w-100" />
+            <img src="assets\grass.jpg" className="w-100" />
 
             }
         
-            <div className="overlay7 position-absolute"></div>
+            <div className="overlay position-absolute"></div>
           </div>
           <div className="about-title position-absolute">
-            <h3 className="text-center">{title}</h3>
+            <h3
+            data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000" className="text-center">{title}</h3>
             <div className="d-flex justify-content-center gap-2">
-               <div style={{cursor:"pointer" , fontSize:"23px"}} onClick={()=>{router('/')}}>{map[0]}</div>
-               <div style={{fontSize:"23px"}}>|</div>
-               <div style={{fontSize:"23px"}}>{map[1]}</div>
+               <div data-aos="fade-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000" style={{cursor:"pointer" , fontSize:"23px"}} onClick={()=>{router('/')}}>{map[0]}</div>
+               <div 
+               data-aos="fade-down"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"style={{fontSize:"23px"}}>|</div>
+               <div 
+               data-aos="fade-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"style={{fontSize:"23px"}}>{map[1]}</div>
             </div>
           </div>
         </div>

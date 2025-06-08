@@ -5,10 +5,15 @@ import Registerform from "./Registerform";
 function Programms() {
   return (
     <>
-      <section className="program updown-space mainbgclr">
+      <section className="program updown-space mainbgclr bgframe2">
         <div className="container">
           <div className="pg-1">
-            <div className="getknow d-flex justify-content-center align-items-center gap-3 ">
+            <div
+              className="getknow d-flex justify-content-center align-items-center gap-3"
+              data-aos="fade-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000"
+            >
               <div className="fticon">
                 <img src="\assets\football-og.png" className="img-fluid" />
               </div>
@@ -17,30 +22,46 @@ function Programms() {
               </div>
             </div>
             <div className="programm-sub text-center my-5 text-light">
-              <h3>Navigate the Spectrum of Success with Our Programs</h3>
+              <h3
+                data-aos="fade-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
+              >
+                Navigate the Spectrum of Success with Our Programs
+              </h3>
             </div>
           </div>
           <div className="pg-2 mt-5 text-light">
-            <div className="programm-card">
-              <div className="pg-title text-center">
-                <h3>Beginner Training Level</h3>
-              </div>
-              <div className="row my-5">
-                <div className="col-lg-6">
-                  <div className="pg-list">
+            <div className="programm-card  my-5 position-relative">
+              <div className="pg-cnt position-absolute w-100">
+                <div
+                  className="pg-title text-center"
+                  data-aos="fade-down"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000"
+                >
+                  <h3>Beginner Training Level</h3>
+                </div>
+                <div
+                  className="pg-board my-xl-5 my-md-3"
+                  data-aos="fade-right"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000"
+                >
+                  <div className="pg-list px-md-5 px-2">
                     <div className=" pgt d-flex align-items-center gap-3">
                       <img src="\assets\check-mark.png" />
                       <h4>Technical Training</h4>
                     </div>
-                    <div className=" pgt d-flex align-items-center gap-3">
+                    <div className=" pgt d-flex   align-items-center gap-3">
                       <img src="\assets\check-mark.png" />
                       <h4>Tactical Training</h4>
                     </div>
-                    <div className=" pgt d-flex align-items-center gap-3">
+                    <div className=" pgt d-flex   align-items-center gap-3">
                       <img src="\assets\check-mark.png" />
                       <h4>Physical Training</h4>
                     </div>
-                    <div className=" pgt d-flex align-items-center gap-3">
+                    <div className=" pgt d-flex   align-items-center gap-3">
                       <img src="\assets\check-mark.png" />
                       <h4>
                         Praticipating Intra Zonal Leagues & Practice Matches
@@ -48,31 +69,44 @@ function Programms() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6">
-                  <div className="lvl1">
-                    <video src="\video\video.mp4" autoPlay loop muted />
-                  </div>
+
+                <div
+                  className="register-now  text-center mt-lg-5 mt-3 "
+                  data-aos="fade-up"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000"
+                >
+                  <button
+                    className="btn text-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Register Now
+                  </button>
                 </div>
               </div>
-
-              <div className="register-now text-center mt-md-5 mt-2 ">
-                <button
-                  className="btn text-dark"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                >
-                  Register Now
-                </button>
+              <div className="lvl1 d-none d-md-block position-absolute">
+                <video src="\video\video.mp4" autoPlay loop muted />
               </div>
             </div>
 
-            <div className="programm-card  my-5">
-              <div className="pg-title text-center">
-                <h3>Developement Training Level</h3>
-              </div>
-              <div className="row my-5">
-                <div className="col-lg-6">
-                  <div className="pg-list">
+            <div className="programm-card  my-5 position-relative">
+              <div className="pg-cnt position-absolute w-100">
+                <div
+                  className="pg-title text-center"
+                  data-aos="fade-down"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000"
+                >
+                  <h3>Development Training Level</h3>
+                </div>
+                <div
+                  className="pg-board my-xl-5 my-md-3"
+                  data-aos="fade-right"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000"
+                >
+                  <div className="pg-list px-md-5 px-2 ">
                     <div className=" pgt d-flex align-items-center gap-3">
                       <img src="\assets\check-mark.png" />
                       <h4>Technical Training</h4>
@@ -103,29 +137,44 @@ function Programms() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6">
-                  <div className="lvl1">
-                    <video src="\video\video.mp4" autoPlay loop muted />
-                  </div>
+
+                <div
+                  className="register-now  text-center mt-lg-5 mt-3 "
+                  data-aos="fade-up"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000"
+                >
+                  <button
+                    className="btn text-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Register Now
+                  </button>
                 </div>
               </div>
-              <div className="register-now text-center  mt-md-5 mt-2 ">
-                <button
-                  className="btn text-dark"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                >
-                  Register Now
-                </button>
+              <div className="lvl1 d-none d-md-block position-absolute">
+                <video src="\video\video.mp4" autoPlay loop muted />
               </div>
             </div>
-            <div className="programm-card ">
-              <div className="pg-title text-center">
-                <h3>Elite Training Level</h3>
-              </div>
-              <div className="row my-5">
-                <div className="col-lg-6">
-                  <div className="pg-list">
+
+            <div className="programm-card  my-5 position-relative">
+              <div className="pg-cnt position-absolute w-100">
+                <div
+                  className="pg-title text-center"
+                  data-aos="fade-down"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000"
+                >
+                  <h3>Elite Training Level</h3>
+                </div>
+                <div
+                  className="pg-board my-xl-5 my-md-3"
+                  data-aos="fade-right"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000"
+                >
+                  <div className="pg-list px-md-5 px-2">
                     <div className=" pgt d-flex alignm-items-center gap-3">
                       <img src="\assets\check-mark.png" />
                       <h4>Technical Training</h4>
@@ -154,20 +203,24 @@ function Programms() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6">
-                  <div className="lvl1">
-                    <video src="\video\video.mp4" autoPlay loop muted />
-                  </div>
+
+                <div
+                  className="register-now  text-center mt-lg-5 mt-3 "
+                  data-aos="fade-up"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000"
+                >
+                  <button
+                    className="btn text-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Register Now
+                  </button>
                 </div>
               </div>
-              <div className="register-now text-center  mt-md-5 mt-2 ">
-                <button
-                  className="btn text-dark"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                >
-                  Register Now
-                </button>
+              <div className="lvl1 d-none d-md-block position-absolute">
+                <video src="\video\video.mp4" autoPlay loop muted />
               </div>
             </div>
           </div>

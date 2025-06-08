@@ -10,9 +10,11 @@ import "swiper/css/effect-fade";
 function Leaguematch({ LeagueData }) {
   return (
     <>
-      <section className="updown-space">
+      <section className="updown-space mainbgclr ">
         <div className="container">
-          <div className="getknow d-flex justify-content-center align-items-center gap-3 ">
+          <div className="getknow d-flex justify-content-center align-items-center gap-3 "  data-aos="fade-right"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000">
             <div className="fticon">
               <img src="\assets\football-og.png" className="img-fluid" />
             </div>
@@ -21,7 +23,7 @@ function Leaguematch({ LeagueData }) {
             </div>
           </div>
 
-          <div className="league-slider mt-5 pt-5">
+          <div className="league-slider mt-5 pt-md-5">
             <Swiper
               spaceBetween={50}
               slidesPerView={2}

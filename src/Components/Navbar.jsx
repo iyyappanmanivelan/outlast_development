@@ -94,8 +94,7 @@ function Navbar() {
       </button>
 
       <div
-        class="offcanvas offcanvas-start"
-        style={{ backgroundColor: "rgb(224 211 156)" }}
+        class="offcanvas offcanvas-start mainbgclr"
         tabindex="-1"
         id="offcanvasExample"
         aria-labelledby="offcanvasExampleLabel"
@@ -109,21 +108,21 @@ function Navbar() {
             aria-label="Close"
           ></button>
         </div>
-        <div className="offcanvas-header d-flex gap-3 laign-items-center">
+        {/* <div className="offcanvas-header d-flex gap-3 laign-items-center">
              <div className="outlast_logo" style={{width:"50px"}}>
                 <img src="\assets\outlast_logo.png" className="img-fluid" />
               </div>
               <h4 className="m-0" style={{fontWeight:"700"}}>OUTLAST F.C.</h4>
-        </div>
+        </div> */}
         <div class="offcanvas-body">
           <div>
             {navbar.map((data , i) => (
               <div className="getknow d-flex justify-content-start my-5 align-items-center gap-3" key={i}>
                 <div className="fticon" style={{width:"25px"}}>
-                  <img src="\assets\football-black.png" className="img-fluid" />
+                  <img src="\assets\football-white.png" className="img-fluid" />
                 </div>
                 <div className="gt-title">
-                  <h4 className="m-0 text-dark"  style={{fontSize:"20px"}} onClick={()=>{router(data?.link); document.getElementById('closeoffcanva').click() }}  >{data?.name}</h4>
+                  <h4 className="m-0 text cg"  style={{fontSize:"20px"}} onClick={()=>{router(data?.link); document.getElementById('closeoffcanva').click() }}  >{data?.name}</h4>
                 </div>
               </div>
             ))}

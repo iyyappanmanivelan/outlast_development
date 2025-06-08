@@ -7,9 +7,8 @@ function Contacts() {
   return (
     <section>
       <Banner title={"Contact Us"} content={"Home | Contact Us"} />
-      <Branch />
       <Contactform />
-      
+      <Branch />      
     </section>
   );
 }

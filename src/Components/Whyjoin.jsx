@@ -14,16 +14,26 @@ function Whyjoin() {
   });
 
   return (
-    <section className="updown-space mainbgclr">
+    <section className="updown-space mainbgclr bgframe2">
       <div className="why-join">
         <div className="container position-relative">
           <div className="row">
-            <div className="col-lg-6" >
-              <div className="whyjoin-img">
+            <div className="col-lg-6">
+              <div
+                className="whyjoin-img"
+                data-aos="zoom-in"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
+              >
                 <img src="assets\whyjoin.jpg" className="img-fluid" />
               </div>
             </div>
-            <div className=" col-lg-6">
+            <div
+              className=" col-lg-6"
+              data-aos="fade-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000"
+            >
               <div className="getknow d-flex align-items-center gap-3 mt-5 mt-lg-0 ">
                 <div className="fticon">
                   <img src="\assets\football-og.png" className="img-fluid" />
@@ -68,7 +78,7 @@ function Whyjoin() {
               </div>
             </div>
           </div>
-             <div className="pg d-lg-none d-block" ref={ref}>
+          <div className="pg d-lg-none d-block" ref={ref}>
             <div className="player-growth">
               <div className="plyr text-center">
                 <h4>
@@ -95,8 +105,13 @@ function Whyjoin() {
       <div className="whyjoin-list my-xl-3 my-5 text-light">
         <div className="container">
           <div className="row">
-            <div className="col-xl-4 col-lg-6 col-12 d-flex justify-content-md-start justify-content-center ">
-              <div className="wyj-box position-relative">
+            <div className=" col-xxl-4 col-xl-6 col-lg-6 col-12 d-flex justify-content-md-start justify-content-center">
+              <div
+                className="wyj-box position-relative"
+                data-aos="fade-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
+              >
                 <h2>Certified Coaches</h2>
                 <p>Our Coaches Certified by AIFF & AIFC</p>
                 <div className="wyj-icon position-absolute">
@@ -104,8 +119,13 @@ function Whyjoin() {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-6 col-12 d-flex justify-content-md-center justify-content-center ">
-              <div className="wyj-box  position-relative">
+            <div className=" col-xxl-4 col-xl-6 col-lg-6 col-12 d-flex justify-content-md-center justify-content-center ">
+              <div
+                className="wyj-box  position-relative"
+                data-aos="fade-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
+              >
                 <h2>Specialized Training</h2>
                 <p>Coaches Customized Sessions To Align With Daily Targets</p>
                 <div className="wyj-icon position-absolute">
@@ -113,8 +133,13 @@ function Whyjoin() {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-6 col-12 d-flex justify-content-md-end justify-content-center">
-              <div className="wyj-box  position-relative ">
+            <div className=" col-xxl-4 col-xl-6 col-lg-6 col-12 d-flex justify-content-md-end justify-content-center">
+              <div
+                className="wyj-box  position-relative "
+                data-aos="fade-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000"
+              >
                 <h2>Infrastructure</h2>
                 <p>FIFA Standard Artificial Turf Grounds</p>
                 <div className="wyj-icon position-absolute">
@@ -124,30 +149,45 @@ function Whyjoin() {
             </div>
             {pathname == "/about" ? (
               <>
-                <div className="col-xl-4 col-lg-6 col-12 d-flex justify-content-md-end justify-content-center">
-                  <div className="wyj-box position-relative">
+                <div className=" col-xxl-4 col-xl-6 col-lg-6 col-12 d-flex justify-content-md-end justify-content-center">
+                  <div className="wyj-box position-relative" 
+                   data-aos="fade-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000">
                     <h2>Player Evaluation Report</h2>
-                    <p> Analyzes technical-tactical skills and physical-psychological traits to assess performance and potential.</p>
+                    <p>
+                      {" "}
+                      Analyzes technical-tactical skills and
+                      physical-psychological traits to assess performance and
+                      potential.
+                    </p>
                     <div className="wyj-icon position-absolute">
                       <img src="\assets\project.png" className="img-fluid" />
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-6 col-12 d-flex justify-content-md-center justify-content-center">
-                  <div className="wyj-box  position-relative">
+                <div className=" col-xxl-4 col-xl-6 col-lg-6 col-12 d-flex justify-content-md-center justify-content-center">
+                  <div className="wyj-box  position-relative"
+                    data-aos="fade-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000">
                     <h2>Competitions</h2>
-                    <p>
-                      Baby leagues, tournament and intra leagues
-                    </p>
+                    <p>Baby leagues, tournament and intra leagues</p>
                     <div className="wyj-icon position-absolute">
                       <img src="\assets\medal-.png" className="img-fluid" />
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-6 col-12 d-flex justify-content-md-start justify-content-center">
-                  <div className="wyj-box  position-relative">
+                <div className=" col-xxl-4 col-xl-6 col-lg-6 col-12 d-flex justify-content-md-start justify-content-center">
+                  <div className="wyj-box  position-relative"
+                    data-aos="fade-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000">
                     <h2>Structured Curriculum</h2>
-                    <p>Adopting global standards for comprehensive football development</p>
+                    <p>
+                      Adopting global standards for comprehensive football
+                      development
+                    </p>
                     <div className="wyj-icon position-absolute">
                       <img src="\assets\curriculum.png" className="img-fluid" />
                     </div>

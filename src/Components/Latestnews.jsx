@@ -13,7 +13,7 @@ function Latestnews({ blogs }) {
   return (
     <section className="updown-space mainbgclr">
       <div className="container">
-        <div className="getknow d-flex justify-content-center align-items-center gap-3 ">
+        <div className="getknow d-flex justify-content-center align-items-center gap-3" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
           <div className="fticon">
             <img src="\assets\football-og.png" className="img-fluid" />
           </div>
@@ -21,7 +21,7 @@ function Latestnews({ blogs }) {
             <h4 className="m-0 cg">Our Lastes Blogs !</h4>
           </div>
         </div>
-        <div className="latest-title my-4 text-center">
+        <div className="latest-title my-4 text-center" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
           <h3 className="text-light">Check Out Our Latest News and Article</h3>
         </div>
 

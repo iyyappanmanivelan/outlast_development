@@ -20,14 +20,17 @@ function Gallery({ data }) {
         style={{ zIndex: 1 }}
       >
         <div className="container">
-          <div className="getknow d-flex justify-content-center align-items-center gap-3">
+          <div className="getknow d-flex justify-content-center align-items-center gap-3" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
             <div className="fticon">
               <img src="\assets\football-og.png" className="img-fluid" />
             </div>
             <div className="gt-title">
-              <h4 className="m-0 cg">Our Latest Vlog's !</h4>
+              <h4 className="m-0 cg">Our Gallery</h4>
             </div>
           </div>
+             <div className="latest-title my-4 text-center" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+          <h3 className="text-light">Check Out Our Latest Vlogs !</h3>
+        </div>
 
           <div className="gllery-slider pt-5">
             <div className="my-5">
@@ -37,18 +40,25 @@ function Gallery({ data }) {
                   "--swiper-pagination-color": "#fff",
                 }}
                 spaceBetween={10}
-                autoplay= {true}
+                autoplay={true}
                 slidesPerView={3}
                 navigation={true}
                 thumbs={{ swiper: thumbsSwiper }}
-                modules={[FreeMode, Navigation, Thumbs , Autoplay]}
+                modules={[FreeMode, Navigation, Thumbs, Autoplay]}
                 className="mySwiper2"
               >
                 {data?.map((item) =>
                   item?.media_type == "VIDEO" ? (
                     <SwiperSlide>
                       <div className="gallery-main text-center">
-                        <video autoPlay loop src={item?.media_url} muted />
+                        <video
+                          preload="none"
+                          muted
+                          playsInline
+                          autoPlay
+                          loop
+                          src={item?.media_url}
+                        />
                       </div>
                     </SwiperSlide>
                   ) : null
@@ -67,8 +77,8 @@ function Gallery({ data }) {
                     slidesPerView: 2,
                     spaceBetween: 20,
                   },
-                  576 :{
-                     slidesPerView: 2,
+                  576: {
+                    slidesPerView: 2,
                     spaceBetween: 20,
                   },
                   768: {
@@ -92,7 +102,12 @@ function Gallery({ data }) {
                   item?.media_type == "VIDEO" ? (
                     <SwiperSlide>
                       <div className="gallery-slider text-center">
-                        <video src={item?.media_url} muted/>
+                        <video
+                          src={item?.media_url}
+                          // preload="none"
+                          muted
+                          playsInline
+                        />
                       </div>
                     </SwiperSlide>
                   ) : null

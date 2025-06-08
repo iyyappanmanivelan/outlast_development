@@ -6,7 +6,10 @@ function Branch() {
   return (
     <>
       <section className="updow-space my-5 py-5">
-        <div className="getknow d-flex justify-content-center align-items-center gap-2">
+        <div className="getknow d-flex justify-content-center align-items-center gap-2" 
+         data-aos="fade-right"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000">
           <div className="fticon">
             <img src="\assets\football-og.png" className="img-fluid" />
           </div>
@@ -19,7 +22,9 @@ function Branch() {
           <div className="row">
             {
             branches.data.map((branch, i) => (
-              <div className="col-lg-6" key={i}>
+              <div className="col-lg-6" key={i}  data-aos="fade-up"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000">
                 <div
                   className="row rounded m-3"
                   style={{ backgroundColor: "rgb(41 41 41)" }}

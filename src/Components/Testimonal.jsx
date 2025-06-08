@@ -20,8 +20,8 @@ function Testimonal() {
           <div className="testmonal-info position-absolute">
             <div className="container">
             <div className="row">
-              <div className="col-xl-6 col-lg-7 col-12 py-5">
-                <div className="getknow d-flex align-items-center gap-3">
+              <div className="col-xl-6 col-md-7 col-12 py-5">
+                <div className="getknow d-flex align-items-center gap-3"  data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                   <div className="fticon">
                     <img
                       src="\assets\football-white.png"
@@ -32,7 +32,7 @@ function Testimonal() {
                     <h4 className="m-0 text-light">Testimonals</h4>
                   </div>
                 </div>
-                <div className="test-title mt-3">
+                <div className="test-title mt-3"  data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                   <h3>Don't Take Our Word for It, Hear Theirs</h3>
                 </div>
                 <div className="test-slider mt-5">
@@ -169,8 +169,8 @@ function Testimonal() {
                   </Swiper>
                 </div>
               </div>
-              <div className="col-xl-6 col-lg-5 d-none d-lg-block pt-lg-5 mt-lg-4 pt-xl-0 mt-xl-0 ">
-                <div className="test-poster text-center p-1 position-relative">
+              <div className="col-xl-6 col-md-5  pt-lg-5 mt-lg-4 pt-xl-0 mt-xl-0 ">
+                <div className="test-poster text-center p-1 position-relative"  data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                     <img src="assets\about (2).png" className="img-fluid position-absolute"/>
                 </div>
               </div>

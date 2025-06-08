@@ -5,11 +5,15 @@ function Getoknow() {
   const [play, setplay] = useState(false);
 
   return (
-    <section className="updown-space mainbgclr">
+    <section className="updown-space mainbgclr bgframe2">
       <div className="container">
         <div className="row">
           <div className="col-xl-6 col-12">
-            <div>
+            <div
+              data-aos="fade-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000"
+            >
               <div className="getknow d-flex align-items-center gap-3">
                 <div className="fticon">
                   <img src="\assets\football-og.png" className="img-fluid" />
@@ -33,7 +37,12 @@ function Getoknow() {
               </div>
             </div>
 
-            <div className="head-coach">
+            <div
+              className="head-coach"
+              data-aos="fade-up"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000"
+            >
               <div className="info">
                 <p>
                   Outlast Academy to help young players grow into confident,
@@ -57,10 +66,15 @@ function Getoknow() {
             </div>
           </div>
           <div className="col-xl-6 col-12">
-            <div className="ch-tst position-relative h-100">
+            <div
+              className="ch-tst position-relative h-100"
+              data-aos="fade-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000"
+            >
               {play ? (
                 <video
-                  className="w-100 h-100 px-3"
+                  className="w-100 h-100 px-md-3"
                   src="video\about_outlast.mp4"
                   loop
                   autoPlay
@@ -69,7 +83,10 @@ function Getoknow() {
                 />
               ) : (
                 <>
-                  <img src="\assets\thumbnail.png" className="img-fluid h-100 px-3" />
+                  <img
+                    src="\assets\thumbnail.png"
+                    className="img-fluid h-100 px-md-3"
+                  />
                   <div
                     className=" plybtn position-absolute"
                     onClick={() => {
@@ -84,6 +101,7 @@ function Getoknow() {
           </div>
         </div>
       </div>
+     
     </section>
   );
 }
