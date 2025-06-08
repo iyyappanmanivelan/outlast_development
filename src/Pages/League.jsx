@@ -8,6 +8,7 @@ import { LeagueData } from "../Constant/Leaguematch.constant";
 import Scoreboard from "../Components/Scoreboard";
 import Joinus from "../Components/Joinus";
 
+
 function League() {
   return (
     <section>
