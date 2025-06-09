@@ -3,7 +3,7 @@ export const FaqData = [
 
     {
         id:1,
-        question : "What is included in the training program?",
+        question : "What is included in the training programm?",
         answer : "Our programs include ; Technical training , Tactical training ,Physical conditioning ,Intra-zonal leagues & practice matches ,Monthly beach or hill training sessions ,Participation in external tournaments (for advanced levels)"
     },
     {
