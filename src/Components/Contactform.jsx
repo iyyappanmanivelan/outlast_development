@@ -59,10 +59,12 @@ function Contactform() {
         style={{ zIndex: 1, left: "0px" }}
       >
         <div className="container">
-          <div className="getknow d-flex justify-content-center align-items-center gap-3" 
-           data-aos="fade-right"
-                  data-aos-easing="ease-out-cubic"
-                  data-aos-duration="1000">
+          <div
+            className="getknow d-flex justify-content-center align-items-center gap-3"
+            data-aos="fade-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          >
             <div className="fticon">
               <img src="\assets\football-og.png" className="img-fluid" />
             </div>

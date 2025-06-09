@@ -17,7 +17,7 @@ export const AboutData = {
       content:
         "We aim for the highest standards in all aspects of our academy.",
       img: "assets/value1.jpg",
-      icon: "/assets/v-icon3.png",
+      icon: "assets/v-icon3.png",
     },
     {
       id: 2,
@@ -40,7 +40,7 @@ export const AboutData = {
       name: "Teamwork",
       content:
         "Success in football is built on collaboration, unity, and mutual support.",
-      img: "/assets/singleman.jpg",
+      img: "assets/singleman.jpg",
       icon: "/assets/v-icon4.png",
     },
   ],

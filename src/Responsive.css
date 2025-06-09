@@ -549,8 +549,15 @@
         font-size: 45px;
     }
 
+    .pgt{
+        margin: 10px 0px;
+    }
     .plyr-img img {
         height: 370px;
+    }
+
+    .pc-start{
+        height: 320px !important;
     }
 
     .ch-tst img {
@@ -748,12 +755,13 @@
     }
 
     .leg-point h4,
-    .legpoint2 h4 {
+    .legpoint2 h4 ,
+    .register-now button{
         font-size: 13px;
     }
 
     .programm-card {
-        height: 350px;
+        height: 400px;
     }
 
     .whyjoin-img img {

@@ -58,7 +58,7 @@ function Footer() {
                     <h6>
                       <ChevronRight />
                     </h6>
-                    <h6>ABOUT</h6>
+                    <h6>ABOUT US</h6>
                   </div>
                   <div
                     className="fl-link d-flex"

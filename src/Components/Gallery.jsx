@@ -10,9 +10,6 @@ import { SwiperSlide, Swiper } from "swiper/react";
 
 function Gallery({ data }) {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
-
-  console.log("kenfkr", data);
-
   return (
     <section className="updown-space gbg position-relative">
       <div
@@ -32,7 +29,7 @@ function Gallery({ data }) {
           <h3 className="text-light">Check Out Our Latest Vlogs !</h3>
         </div>
 
-          <div className="gllery-slider pt-5">
+          <div className="gllery-slider pt-md-5 pt-2">
             <div className="my-5">
               <Swiper
                 style={{
@@ -42,6 +39,28 @@ function Gallery({ data }) {
                 spaceBetween={10}
                 autoplay={true}
                 slidesPerView={3}
+                   breakpoints={{
+                  390: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                  },
+                  576: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                  },
+                  768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                  },
+                  1024: {
+                    slidesPerView: 2,
+                    spaceBetween: 50,
+                  },
+                  1200: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                  },
+                }}
                 navigation={true}
                 thumbs={{ swiper: thumbsSwiper }}
                 modules={[FreeMode, Navigation, Thumbs, Autoplay]}

@@ -32,7 +32,7 @@ function Programms() {
             </div>
           </div>
           <div className="pg-2 mt-5 text-light">
-            <div className="programm-card  my-5 position-relative">
+            <div className="programm-card pc-start  my-5 position-relative">
               <div className="pg-cnt position-absolute w-100">
                 <div
                   className="pg-title text-center"
@@ -43,7 +43,7 @@ function Programms() {
                   <h3>Beginner Training Level</h3>
                 </div>
                 <div
-                  className="pg-board my-xl-5 my-md-3"
+                  className="pg-board  my-md-5 my-4"
                   data-aos="fade-right"
                   data-aos-easing="ease-out-cubic"
                   data-aos-duration="1000"
@@ -101,7 +101,7 @@ function Programms() {
                   <h3>Development Training Level</h3>
                 </div>
                 <div
-                  className="pg-board my-xl-5 my-md-3"
+                  className="pg-board  my-md-5 my-4"
                   data-aos="fade-right"
                   data-aos-easing="ease-out-cubic"
                   data-aos-duration="1000"
@@ -169,7 +169,7 @@ function Programms() {
                   <h3>Elite Training Level</h3>
                 </div>
                 <div
-                  className="pg-board my-xl-5 my-md-3"
+                  className="pg-board my-md-5 my-4"
                   data-aos="fade-right"
                   data-aos-easing="ease-out-cubic"
                   data-aos-duration="1000"

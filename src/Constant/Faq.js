@@ -24,7 +24,7 @@ export const FaqData = [
     {
         id:5,
         question : "What age groups do you train at Outlast FC ?",
-        answer : "We offer training programs for children and youth typically between the ages of 5 to 18 years, categorized by skill level and age group."
+        answer : "We offer training programs for children and youth typically between the ages of 5 to 16 years, categorized by skill level and age group."
     },
     {
         id:6,

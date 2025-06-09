@@ -5,7 +5,7 @@ import Registerform from "./Registerform";
 function Branch() {
   return (
     <>
-      <section className="updow-space my-5 py-5">
+      <section className="updow-space py-5 mainbgclr bgframe2">
         <div className="getknow d-flex justify-content-center align-items-center gap-2" 
          data-aos="fade-right"
                   data-aos-easing="ease-out-cubic"
