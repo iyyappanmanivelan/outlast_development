@@ -193,7 +193,7 @@ a {
 .head-coach {
   padding: 35px;
   border-radius: 0px 40px 0px 40px;
-  box-shadow: rgb(255 242 242 / 74%) -1px 1px 15px 4px;
+  box-shadow: rgb(24 24 24 / 74%) -1px 1px 15px 4px;
   background-image: linear-gradient(#bc9c23, #e0d39b, #e0d39c) !important;
 
 
@@ -532,7 +532,7 @@ a {
 }
 
 .mainbgclr {
-  background-color: #e46700 !important;
+  background: linear-gradient(60deg, #e46700 , #e46700 , #e46700 , #fed404)
 }
 
 .title-space {
@@ -566,13 +566,19 @@ a {
   margin: 20px 0px;
 }
 
-.choose-bg {
+/* .choose-bg {
   background: url('/public/assets/chhose-bg.jpg');
   height: 1200px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
+
+
+   .form-check-input:checked {
+      background-color: #ffe98dbf; /* Bootstrap primary color */
+      border-color: #ffe98dbf;
+    }
 
 
 
@@ -760,6 +766,8 @@ table tbody td {
 .teamboard {
   background: linear-gradient(#bc9c23, #e0d39b, #e0d39c);
   padding: 30px 0px;
+  border-radius: 0px 30px 0px 30px;
+
 }
 
 table tbody tr:nth-child(odd) {
@@ -781,11 +789,13 @@ table tbody tr:nth-child(odd) {
 .leg-cup img {
   height: 600px;
   object-fit: cover;
+  border-radius: 0px 30px 0px 30px;
 }
 
 .leg-cup2 img {
   height: 635px;
   object-fit: cover;
+  border-radius: 0px 30px 0px 30px;
 
 }
 
@@ -936,6 +946,7 @@ table tbody tr:nth-child(odd) {
 
 .map-view {
   height: 350px;
+  
 }
 
 .mapbg {
@@ -945,6 +956,7 @@ table tbody tr:nth-child(odd) {
   z-index: 0;
   overflow: hidden;
   cursor: pointer;
+
 }
 
 .mapbg img {
@@ -956,6 +968,7 @@ table tbody tr:nth-child(odd) {
   transform: scale(2);
 
 
+
 }
 
 .mapbg:hover img {
@@ -964,6 +977,8 @@ table tbody tr:nth-child(odd) {
   transform: none;
 
 }
+
+
 
 .bb:hover .mainmap {
   z-index: 0;

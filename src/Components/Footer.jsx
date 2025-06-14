@@ -19,7 +19,13 @@ function Footer() {
           <div className="row">
             <div className="col-xl-3 col-lg-4 col-md-6 col-12 d-flex justify-content-lg-center">
               <div className="footerpart">
-                <div className="outlast_logo" onClick={()=>{router('/')}} style={{cursor:"pointer"}}>
+                <div
+                  className="outlast_logo"
+                  onClick={() => {
+                    router("/");
+                  }}
+                  style={{ cursor: "pointer" }}
+                >
                   <img src="\assets\outlast_logo.png" className="img-fluid" />
                 </div>
                 <div className="outlast-info">
@@ -190,13 +196,13 @@ function Footer() {
             </div>
             <div className="col-lg-6 col-md-6 col-12 my-4 my-md-0">
               <div className="d-flex align-items-center justify-content-md-end gap-4">
-                <div className="terms d-flex align-items-center gap-1">
+                <div className="terms d-flex align-items-center gap-1" onClick={()=>{router("/terms-condition")}} style={{cursor:"pointer"}}>
                   <h6>
                     <ChevronRight />
                   </h6>
                   <h6>Terms & Condition</h6>
                 </div>
-                <div className="privacy d-flex align-items-center gap-1">
+                <div className="privacy d-flex align-items-center gap-1"  onClick={()=>{router("/privacy-policy")}} style={{cursor:"pointer"}}>
                   <h6>
                     <ChevronRight />
                   </h6>

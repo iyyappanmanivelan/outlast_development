@@ -13,6 +13,8 @@ import About from "./Pages/About";
 import League from "./Pages/League";
 import PPage from "./Pages/PPage";
 import "./Responsive.css";
+import Terms from "./Pages/Terms";
+import Policy from "./Pages/Policy";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -52,6 +54,8 @@ function App() {
           <Route path="/contact" element={<Contacts />} />
           <Route path="/programm" element={<PPage />} />
           <Route path="/league" element={<League />} />
+          <Route path="/terms-condition" element={<Terms/>}/>
+          <Route path="/privacy-policy" element={<Policy/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

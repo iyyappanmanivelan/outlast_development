@@ -11,7 +11,7 @@ import moment from "moment";
 
 function Latestnews({ blogs }) {
   return (
-    <section className="updown-space mainbgclr bgframe2">
+    <section className="updown-space mainbgclr">
       <div className="container">
         <div className="getknow d-flex justify-content-center align-items-center gap-3" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
           <div className="fticon">
@@ -25,7 +25,7 @@ function Latestnews({ blogs }) {
           <h3 className="text-light">Check Out Our Latest News and Article</h3>
         </div>
 
-        <div className="mt-5 pt-5">
+        <div className="mt-5 pt-md-5">
           <Swiper
             spaceBetween={50}
             slidesPerView={3}

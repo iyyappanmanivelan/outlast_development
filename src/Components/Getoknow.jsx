@@ -5,7 +5,7 @@ function Getoknow() {
   const [play, setplay] = useState(false);
 
   return (
-    <section className="updown-space mainbgclr bgframe2">
+    <section className="updown-space ">
       <div className="container">
         <div className="row">
           <div className="col-xl-6 col-12">

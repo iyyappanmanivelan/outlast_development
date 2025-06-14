@@ -5,7 +5,7 @@ import Registerform from "./Registerform";
 function Programms() {
   return (
     <>
-      <section className="program updown-space mainbgclr bgframe2">
+      <section className="program updown-space mainbgclr">
         <div className="container">
           <div className="pg-1">
             <div

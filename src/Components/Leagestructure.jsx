@@ -3,7 +3,7 @@ import React from "react";
 function Leagestructure({data}) {
   return (
     <section
-      className="updown-space mainbgclr bgframe2"
+      className="updown-space mainbgclr"
      
     >
       <div className="container">
@@ -42,7 +42,7 @@ function Leagestructure({data}) {
                     <div className="leg-cup"  data-aos="zoom-out"
                   data-aos-easing="ease-out-cubic"
                   data-aos-duration="1000">
-                        <img src="assets\zone.jpg" className="img-fluid"/>
+                        <img src="\assets\zone.JPG" className="img-fluid"/>
                     </div>
                 </div>
             </div>

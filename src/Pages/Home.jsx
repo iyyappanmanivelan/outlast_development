@@ -9,40 +9,34 @@ import { Instagram_Function } from "../Api/Insta_api";
 import Gallery from "../Components/Gallery";
 
 function Home() {
+  const [data, setdata] = useState();
 
+  const Insta = () => {
+    Instagram_Function()
+      .then((res) => {
+        setdata(res?.data);
+      })
 
-  const [data , setdata] = useState()
+      .catch((err) => {
+        console.log(err);
+      });
+  };
 
-
-  const Insta = ()=>{
-       Instagram_Function()
-       .then((res)=>{
-         setdata(res?.data)
-       })
-
-       .catch((err)=>{
-        console.log(err)
-       })
-  }
-
-
-  useEffect(()=>{
-
-    Insta()
-
-  },[])
-
+  useEffect(() => {
+    Insta();
+  }, []);
 
   return (
     <>
-      <Banner/>
-      <Getoknow/>
-      <Whyjoin/>
-      <Testimonal/>
-      <Latestnews blogs={data}/>
-      <Gallery data={data}/> 
-      <Joinus/>
-
+      <Banner />
+      <section className="mainbgclr">
+        <Getoknow />
+        <Whyjoin />
+      </section>
+      <Testimonal />
+      <Latestnews blogs={data} />
+      <Gallery data={data} />
+      <Joinus />
     </>
   );
 }

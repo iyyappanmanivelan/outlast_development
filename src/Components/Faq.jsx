@@ -2,7 +2,7 @@ import React from "react";
 
 function Faq({ data , branch}) {
   return (
-    <section className="updown-space bgframe2">
+    <section className="updown-space">
       <div className="container">
         <div className="getknow d-flex align-items-center justify-content-center gap-3" 
          data-aos="fade-right"

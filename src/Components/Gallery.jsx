@@ -29,7 +29,7 @@ function Gallery({ data }) {
           <h3 className="text-light">Check Out Our Latest Vlogs !</h3>
         </div>
 
-          <div className="gllery-slider pt-md-5 pt-2">
+          <div className="gllery-slider pt-md-5 ">
             <div className="my-5">
               <Swiper
                 style={{
@@ -37,7 +37,6 @@ function Gallery({ data }) {
                   "--swiper-pagination-color": "#fff",
                 }}
                 spaceBetween={10}
-                autoplay={true}
                 slidesPerView={3}
                    breakpoints={{
                   390: {
@@ -63,7 +62,7 @@ function Gallery({ data }) {
                 }}
                 navigation={true}
                 thumbs={{ swiper: thumbsSwiper }}
-                modules={[FreeMode, Navigation, Thumbs, Autoplay]}
+                modules={[FreeMode, Navigation, Thumbs]}
                 className="mySwiper2"
               >
                 {data?.map((item) =>

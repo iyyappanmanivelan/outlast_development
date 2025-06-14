@@ -14,7 +14,9 @@ function About() {
   return (
     <>
       <Banner title={"About Us"} content={"Home | About Us"} />
-      <Whyjoin />
+      <section className="mainbgclr">
+        <Whyjoin />
+      </section>
 
       <div className="abt-contnet updown-space text-center text-light abbg position-relative">
         <div
@@ -32,28 +34,29 @@ function About() {
               </h2>
             </div>
             <div className="abt-info d-flex justify-content-center my-5">
-              <h6   data-aos="zoom-in-up"
+              <h6
+                data-aos="zoom-in-up"
                 data-aos-easing="ease-out-cubic"
-                data-aos-duration="1000">{AboutData?.Intro}</h6>
+                data-aos-duration="1000"
+              >
+                {AboutData?.Intro}
+              </h6>
             </div>
           </div>
         </div>
         <div className="overlay7 position-absolute "></div>
       </div>
 
-
       <Whychoose data={AboutData?.Why_Choose} />
+
+      <Ourcoach coach={AboutData?.Our_coach?.images} />
 
       <Ourstory data={AboutData?.Our_story} />
 
-      
       <Ourvalues
         data={AboutData?.Our_values}
         philo={AboutData?.Our_philosophy}
       />
-
-      <Ourcoach coach={AboutData?.Our_coach?.images} />
-
 
       <Joinus />
     </>

@@ -3,7 +3,7 @@ import { GeoAltFill } from "react-bootstrap-icons";
 
 function OurTeam({ data }) {
   return (
-    <section className="updown-space mainbgclr bgframe2">
+    <section className="updown-space mainbgclr">
       <div className="container-fluid">
         <div className="getknow d-flex justify-content-center align-items-center gap-3 " 
          data-aos="fade-right"

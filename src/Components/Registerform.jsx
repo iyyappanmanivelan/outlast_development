@@ -3,11 +3,16 @@ import React, { useEffect, useState } from "react";
 import * as Yup from "yup";
 import { branches } from "../Constant/branch.constant";
 import { Register_Api } from "../Api/form_api";
+import { useNavigate } from "react-router-dom";
 
 function Registerform() {
   const [loading, setloading] = useState(false);
   const [showmsg, setshowmsg] = useState(false);
   const [errmsg, seterrmsg] = useState(false);
+  const [agree, setagree] = useState(false);
+  const [agreemsg, setagreemsg] = useState(false);
+
+  const router = useNavigate();
 
   const Schemea = Yup.object().shape({
     Name: Yup.string().required("Enter Your Name"),
@@ -26,29 +31,38 @@ function Registerform() {
     validationSchema: Schemea,
 
     onSubmit: async (values, { resetForm }) => {
-      setloading(true);
+      if (!agree) {
+        setagreemsg(true);
+        setTimeout(() => {
+          setagreemsg(false);
+        }, 3000);
+      } else {
+        setagreemsg(false);
 
-      Register_Api(values)
-        .then((res) => {
-          setloading(false);
+        setloading(true);
 
-          setshowmsg(true);
-          setTimeout(() => {
-            setshowmsg(false);
-          }, 3000);
-          resetForm();
-        })
-        .catch((err) => {
-          console.log(err);
-          seterrmsg(true);
-          setTimeout(() => {
-            seterrmsg(false);
-          }, 2000);
-          resetForm();
-          setloading(false);
-        });
+        Register_Api(values)
+          .then((res) => {
+            setloading(false);
 
-      console.log("values", values);
+            setshowmsg(true);
+            setTimeout(() => {
+              setshowmsg(false);
+            }, 3000);
+            resetForm();
+          })
+          .catch((err) => {
+            console.log(err);
+            seterrmsg(true);
+            setTimeout(() => {
+              seterrmsg(false);
+            }, 2000);
+            resetForm();
+            setloading(false);
+          });
+
+        console.log("values", values);
+      }
     },
   });
 
@@ -62,10 +76,7 @@ function Registerform() {
         aria-hidden="true"
       >
         <div class="modal-dialog  modal-dialog-centered">
-          <div
-            class="modal-content mainbgclr"
-           
-          >
+          <div class="modal-content mainbgclr">
             <div class="modal-header border-0 text-center">
               <h1 class="modal-title fs-3 fw-bold cg" id="exampleModalLabel">
                 Registration Form
@@ -100,9 +111,7 @@ function Registerform() {
                     placeholder="Enter Your Mobile"
                   />
                   {Formik.touched.Mobile && Formik.errors.Mobile ? (
-                    <small className="text-dark">
-                      Mobile field required *
-                    </small>
+                    <small className="text-dark">Mobile field required *</small>
                   ) : null}
                 </div>
                 <div className="input-box">
@@ -127,6 +136,35 @@ function Registerform() {
                       <option value={branch.locatin}>{branch.locatin}</option>
                     ))}
                   </select>
+                  <div className="input-box d-flex align-items-center terms">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                      checked={agree}
+                      onChange={(e) => setagree(e.target.checked)}
+                    />
+                    <label
+                      className="form-check-label m-0"
+                      for="flexCheckDefault"
+                    >
+                      I agree to the{" "}
+                      <span
+                        className="text-dark"
+                        style={{
+                          cursor: "pointer",
+                          borderBottom: "1px solid #000",
+                        }}
+                        onClick={() => {
+                          router("/terms-condition");
+                        }}
+                      >
+                        {" "}
+                        terms & condition
+                      </span>
+                    </label>
+                  </div>
                 </div>
 
                 <button className="submit d-none" id="submit" type="submit">
@@ -137,6 +175,14 @@ function Registerform() {
                   <div className="d-flex justify-content-start">
                     <small className="bg-success mx-2 py-2 rounded px-5">
                       Success ! We will contact you soon ...
+                    </small>
+                  </div>
+                ) : null}
+
+                {agreemsg ? (
+                  <div className="d-flex justify-content-start">
+                    <small className="bg-danger mx-2 py-2 rounded px-5">
+                      Please agree terms & condition
                     </small>
                   </div>
                 ) : null}

@@ -14,7 +14,7 @@ function Whyjoin() {
   });
 
   return (
-    <section className="updown-space mainbgclr bgframe2">
+    <section className="updown-space">
       <div className="why-join">
         <div className="container position-relative">
           <div className="row">

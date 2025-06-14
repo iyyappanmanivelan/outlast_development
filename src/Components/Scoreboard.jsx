@@ -97,7 +97,7 @@ function Scoreboard({ table }) {
                     <th>Points</th>
                   </thead>
                   <tbody className="scoreboard">
-                    {table?.under9?.map((data) => (
+                    {table?.under11?.map((data) => (
                       <tr>
                         <td>{data?.name}</td>
                         <td>{data?.played}</td>
@@ -145,7 +145,7 @@ function Scoreboard({ table }) {
                     <th>Points</th>
                   </thead>
                   <tbody className="scoreboard">
-                    {table?.under9?.map((data) => (
+                    {table?.under13?.map((data) => (
                       <tr>
                         <td>{data?.name}</td>
                         <td>{data?.played}</td>
@@ -193,7 +193,7 @@ function Scoreboard({ table }) {
                     <th>Points</th>
                   </thead>
                   <tbody className="scoreboard">
-                    {table?.under9?.map((data) => (
+                    {table?.under15?.map((data) => (
                       <tr>
                         <td>{data?.name}</td>
                         <td>{data?.played}</td>

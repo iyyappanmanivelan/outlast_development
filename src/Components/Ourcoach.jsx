@@ -9,12 +9,14 @@ import { Autoplay } from "swiper/modules";
 
 function Ourcoach({ coach }) {
   return (
-    <section className="updown-space mainbgclr bgframe2">
+    <section className="updown-space">
       <div className="container position-relative">
-        <div className="getknow d-flex justify-content-center align-items-center gap-3" 
-        data-aos="fade-right"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="1000">
+        <div
+          className="getknow d-flex justify-content-center align-items-center gap-3"
+          data-aos="fade-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
           <div className="fticon">
             <img src="\assets\football-og.png" className="img-fluid" />
           </div>
@@ -25,9 +27,13 @@ function Ourcoach({ coach }) {
 
         <div className="Guided-title text-light text-center mt-5">
           <h4
-          data-aos="fade-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="1000"> Guided by the Best in the Game </h4>
+            data-aos="fade-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          >
+            {" "}
+            Guided by the Best in the Game{" "}
+          </h4>
         </div>
 
         <div className="coach-slider mt-5 pt-md-5 pt-2">

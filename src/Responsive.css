@@ -749,6 +749,13 @@
         font-size: 18px;
     }
 
+    .terms-point h5{
+        font-size: 14px;
+    }
+    .terms-point h3{
+        font-size: 16px;
+    }
+
     .leg-cup img,
     .leg-cup2 img {
         height: 400px;

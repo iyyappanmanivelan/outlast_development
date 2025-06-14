@@ -2,7 +2,7 @@ import React from "react";
 
 function Ourstory({ data }) {
   return (
-    <section className="updown-space text-light mainbgclr" >
+    <section className="updown-space text-light mainbgclr " >
       <div className="container">
         <div className="row">
             <div className="col-lg-6">

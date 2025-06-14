@@ -2,7 +2,7 @@ import React from "react";
 
 function Outlastsuperleague({ data }) {
   return (
-    <section className="updown-space bgframe2">
+    <section className="updown-space">
       <div className="container">
         <div className="getknow d-flex justify-content-center align-items-center gap-3 " 
          data-aos="fade-right"

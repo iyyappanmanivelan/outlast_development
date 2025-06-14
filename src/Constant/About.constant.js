@@ -16,8 +16,7 @@ export const AboutData = {
       name: "Excellence",
       content:
         "We aim for the highest standards in all aspects of our academy.",
-      img: "assets/value1.jpg",
-      icon: "assets/v-icon3.png",
+      img: "assets/v-icon5.jpg",
     },
     {
       id: 2,
@@ -25,7 +24,6 @@ export const AboutData = {
       content:
         " We teach players the importance of honesty, respect, and fair play.",
       img: "assets/teach.jpg",
-      icon: "/assets/v-icon2.png",
     },
     {
       id: 3,
@@ -33,15 +31,13 @@ export const AboutData = {
       content:
         "We foster a love for the game and a commitment to continuous improvement.",
       img: "assets/value3.jpg",
-      icon: "/assets/v-icon1.png",
     },
     {
       id: 4,
       name: "Teamwork",
       content:
         "Success in football is built on collaboration, unity, and mutual support.",
-      img: "assets/singleman.jpg",
-      icon: "/assets/v-icon4.png",
+      img: "assets/v-icon7.jpg",
     },
   ],
 
@@ -51,58 +47,58 @@ export const AboutData = {
     images: [
       {
         id: "1",
-        name: "Akash",
+        name: "Keerthi",
         img: "/assets/coach1.jpg",
-        role: "Attack-Forward",
+        role: "COACH",
       },
       {
         id: "2",
-        name: "Akash",
+        name: "Evan Visu",
         img: "/assets/coach2.jpg",
-        role: "Attack-Forward",
+        role: "COACH",
       },
       {
         id: "3",
-        name: "Akash",
+        name: "Ashwin",
         img: "/assets/coach3.jpg",
-        role: "Attack-Forward",
+        role: "COACH",
       },
       {
         id: "4",
-        name: "Akash",
+        name: "Kishaan",
         img: "/assets/coach4.jpg",
-        role: "Attack-Forward",
+        role: "COACH",
       },
       {
         id: "5",
-        name: "Akash",
+        name: "Vishwa",
         img: "/assets/coach5.jpg",
-        role: "Attack-Forward",
+        role: "COACH",
       },
       {
         id: "6",
-        name: "Akash",
+        name: "Vinoth",
         img: "/assets/coach6.jpg",
-        role: "Attack-Forward",
+        role: "COACH",
       },
       {
         id: "7",
-        name: "Akash",
+        name: "Avinash",
         img: "/assets/coach7.jpg",
-        role: "Attack-Forward",
+        role: "COACH",
       },
       {
         id: "8",
-        name: "Akash",
+        name: "Martin",
         img: "/assets/coach8.jpg",
-        role: "Attack-Forward",
+        role: "COACH",
       },
-      {
+         {
         id: "9",
-        name: "Akash",
+        name: "Dhilip",
         img: "/assets/coach9.jpg",
-        role: "Attack-Forward",
-      },
+        role: "COACH",
+      }
     ],
   },
   Unique: [
@@ -110,37 +106,38 @@ export const AboutData = {
       id: 1,
       content:
         "We focus on the complete player, offering training in technical skills, tactical awareness, fitness, and mental resilience.",
-        img : "/assets/uq1.jpg"
+      img: "/assets/uq1.jpg",
     },
     {
       id: 2,
       content:
         "Regular competitive matches, tournaments, and scouting opportunities give our players the chance to shine and level up.",
-         img : "/assets/uq2.jpg"
+      img: "/assets/uq2.jpg",
     },
     {
       id: 3,
       content:
         "We use the latest techniques in fitness, agility, ball control, and tactical awareness to develop well-rounded players.",
-         img : "/assets/uq3.jpg"
+      img: "/assets/uq3.jpg",
     },
     {
       id: 4,
       content:
         "We track each player’s progress and offer personalized feedback to help them grow faster and stronger — mentally and physically.",
-         img : "/assets/uq4.jpg"
+      img: "/assets/uq4.jpg",
     },
     {
       id: 5,
       content:
         "We teach responsibility, teamwork, and a winner’s mindset — values that extend beyond the football field.",
-         img : "/assets/uq5.jpg"
+      img: "/assets/uq5.jpg",
     },
     {
-      id:6,
-      content : "Each coach at our academy combines technical excellence with heartfelt mentorship ensuring every child feels supported, valued, and inspired.",
-      img : "/assets/care.jpg"
-    }
+      id: 6,
+      content:
+        "Each coach at our academy combines technical excellence with heartfelt mentorship ensuring every child feels supported, valued, and inspired.",
+      img: "/assets/care.jpg",
+    },
   ],
   Why_Choose: [
     {
