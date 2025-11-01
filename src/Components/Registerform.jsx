@@ -15,9 +15,18 @@ function Registerform() {
   const router = useNavigate();
 
   const Schemea = Yup.object().shape({
-    Name: Yup.string().required("Enter Your Name"),
-    Mobile: Yup.string().required("Enter Your Number"),
-    Age: Yup.string().required("Enter Your Age"),
+    Name: Yup.string()
+      .matches(/^[A-Za-z\s']+$/, "Enter valid name")
+      .required("Name required"),
+    Mobile: Yup.string()
+      .matches(/^[0-9]{10}$/, "Enter valid number")
+      .max(10 , "Maximum  10 digit")
+      .min(10 , "Minimum 10 digit")
+      .required("Mobile number required"),
+    Age: Yup.string()
+      .matches(/^[0-9]{2}$/, "Enter valid age")
+      .max(2 , "Maximum 2 digit")
+      .required("Age required"),
     Branch: Yup.string(),
   });
 
@@ -91,7 +100,7 @@ function Registerform() {
             <div class="modal-body border-0 px-4">
               <form onSubmit={Formik.handleSubmit} className="text-light">
                 <div className="input-box">
-                  <label>Name</label>
+                  <label>Name *</label>
                   <input
                     type="text"
                     className="form-control"
@@ -99,11 +108,11 @@ function Registerform() {
                     {...Formik.getFieldProps("Name")}
                   />
                   {Formik.touched.Name && Formik.errors.Name ? (
-                    <small className="text-dark">Name field required *</small>
+                    <small className="text-dark">{Formik.errors.Name}</small>
                   ) : null}
                 </div>
                 <div className="input-box">
-                  <label>Mobile</label>
+                  <label>Mobile *</label>
                   <input
                     type="text"
                     {...Formik.getFieldProps("Mobile")}
@@ -111,11 +120,11 @@ function Registerform() {
                     placeholder="Enter Your Mobile"
                   />
                   {Formik.touched.Mobile && Formik.errors.Mobile ? (
-                    <small className="text-dark">Mobile field required *</small>
+                    <small className="text-dark">{Formik.errors.Mobile}</small>
                   ) : null}
                 </div>
                 <div className="input-box">
-                  <label>Age</label>
+                  <label>Age *</label>
                   <input
                     type="text"
                     {...Formik.getFieldProps("Age")}
@@ -123,7 +132,7 @@ function Registerform() {
                     placeholder="Enter Your Age"
                   />
                   {Formik.touched.Age && Formik.errors.Age ? (
-                    <small className="text-dark">Age field required *</small>
+                    <small className="text-dark">{Formik.errors.Age}</small>
                   ) : null}
                 </div>
                 <div className="input-box">
