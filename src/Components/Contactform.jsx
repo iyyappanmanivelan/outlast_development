@@ -9,9 +9,14 @@ function Contactform() {
   const [errmsg, seterrmsg] = useState(false);
 
   const Schemea = Yup.object().shape({
-    First_name: Yup.string().required("First Name Required *"),
-    Last_name: Yup.string(),
-    Mobile: Yup.string().required("Phone Number Required *"),
+    First_name: Yup.string()
+      .matches(/^[A-Za-z\s']+$/, "Enter valid name")
+      .required("Fisrt name required"),
+    Last_name: Yup.string().matches(/^[A-Za-z\s']+$/, "Enter valid name"),
+
+    Mobile: Yup.string()
+      .matches(/^[0-9]{10}$/, "Mobile must be 10 digits")
+      .required("Mobile number required"),
     Email: Yup.string().required("Email Required"),
     Message: Yup.string(),
   });
