@@ -4,7 +4,7 @@ export const AboutData = {
   Our_story: {
     img: "/assets/story.jpg",
     content:
-      "Founded in 2022 , Create Football Academy has grown from a small group of passionate footballers to a leading football training facility in Perumbakkam. With the goal of providing the best training and opportunities for players",
+      "Founded in 2022 , Outlast Football Academy has grown from a small group of passionate footballers to a leading football training facility in Perumbakkam. With the goal of providing the best training and opportunities for players",
     content_2:
       "Our academy is dedicated to offering a comprehensive training experience for players of all skill levels. From beginners taking their first steps into the game, to aspiring professionals aiming for the top, we provide expert coaching, personalized development plans, and a supportive environment where players can achieve their full potential.",
   },
