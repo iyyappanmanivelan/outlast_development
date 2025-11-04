@@ -1,6 +1,6 @@
 export const AboutData = {
   Intro:
-    "Create a Football Academy was founded with a clear vision: to create a training ground where aspiring footballers can sharpen their skills, build character, and unlock their potential. Our academy is committed to providing high-quality football education and development for players of all ages and abilities.",
+    "Outlast Football Academy was founded with a clear vision: to create a training ground where aspiring footballers can sharpen their skills, build character, and unlock their potential. Our academy is committed to providing high-quality football education and development for players of all ages and abilities.",
   Our_story: {
     img: "/assets/story.jpg",
     content:
