@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "./App.css";
@@ -23,6 +22,24 @@ const ScrollToTop = () => {
     window.scrollTo(0, 0);
     window.history.scrollRestoration = "manual";
   }, [pathname]);
+
+  return null;
+};
+
+const GoogleAnalyticsPageView = () => {
+  const { pathname, search } = useLocation();
+
+  useEffect(() => {
+    if (typeof window.gtag !== "function") return;
+
+    window.gtag("event", "page_view", {
+      page_location: window.location.href,
+      page_path: `${pathname}${search}`,
+      page_title: document.title,
+    });
+  }, [pathname, search]);
+
+  return null;
 };
 
 function App() {
@@ -47,6 +64,7 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
+      <GoogleAnalyticsPageView />
       <Routes>
         <Route element={<MainRoutes />}>
           <Route path="/" element={<Home />} />
